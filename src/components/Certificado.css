@@ -1,0 +1,9 @@
+.Certificado {
+  background: var(--blue);
+}
+.certificado-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}

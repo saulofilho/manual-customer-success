@@ -4,6 +4,7 @@
   --dark-blue: #17477E;
   --light-blue: #EDF5FC;
   --black: #212222;
+  --gray: #7C8398;
 }
 html,
 body {
@@ -54,7 +55,8 @@ button {
   padding: 20px 70px;
 }
 .red-line,
-.blue-line {
+.blue-line,
+.white-line {
   width: 80px;
   height: auto;
 }

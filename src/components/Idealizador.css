@@ -1,0 +1,25 @@
+.Idealizador {
+  background: var(--blue);
+}
+.idealizador-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.idealizador-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.lugares-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.lugares-row img {
+  width: 100px;
+  height: auto;
+}

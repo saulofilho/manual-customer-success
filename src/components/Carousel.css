@@ -1,0 +1,25 @@
+.Carousel {
+  background: var(--light-blue);
+}
+.container-box {
+  margin: 0 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.slick-current .container-box {
+  background: var(--blue);
+}
+.slick-prev {
+  left: -50px !important;
+  z-index: 9 !important;
+}
+.slick-prev::before {
+  content: url('../assets/vetores/arrow-left.png') !important;
+}
+.slick-next {
+  right: -50px !important;
+  z-index: 9 !important;
+}
+.slick-next::before {
+  content: url('../assets/vetores/arrow-right.png') !important;
+}

@@ -28,12 +28,14 @@ function Futuro() {
             </p>
             <img className="red-line" src={RedLine} alt="linha vermelha"/>
           </div>
-          <div className="futuro-row-black-box">
-            <p>
-              Seja parte do grupo seleto de profissionais qualificados que vão 
-              se destacar entregando sucesso ao cliente com uma metodologia 
-              aplicada e comprovada em milhares de empresa no Brasil e no mundo.
-            </p>
+          <div className="futuro-row-black-box-wrapper">
+            <div className="futuro-row-black-box">
+              <p>
+                Seja parte do <strong>grupo seleto de profissionais qualificados</strong> que vão 
+                se destacar entregando sucesso ao cliente com uma metodologia 
+                aplicada e comprovada em milhares de empresa no Brasil e no mundo.
+              </p>
+            </div>
             <img className="blue-line" src={BlueLine} alt="linha azul"/>
           </div>
         </div>

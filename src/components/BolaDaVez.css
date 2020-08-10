@@ -1,0 +1,17 @@
+.BolaDaVez {
+}
+.boladavez-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  background: var(--light-blue);
+}
+.blue-box {
+  
+}
+.blue-box::before {
+  height: 50px;
+  width: 150px;
+  background: var(--blue);
+}

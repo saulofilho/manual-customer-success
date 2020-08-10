@@ -1,0 +1,10 @@
+.quem-confia-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background: var(--red);
+}
+.red-box {
+  padding: 0 50px;
+}

@@ -1,0 +1,11 @@
+.VaiAprender {
+  background: var(--light-blue);
+  padding: 30px 0;
+}
+.vaiaprender-wrapper {
+  background: #fff;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}

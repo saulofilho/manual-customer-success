@@ -15,11 +15,21 @@
   align-items: flex-start;
   flex-flow: row;
 }
+.futuro-row-text p { 
+  font-size: 14px;
+  font-family: 'Open Sans';
+  padding: 0 40px 0 100px;
+}
 .futuro-row-black-box {
   background: #212222;
+  padding: 40px;
+  border-radius: 3px 3px 0 0;
 }
 .futuro-row-black-box p {
   color: #fff;
+  font-family: 'Decima Mono';
+  font-size: 16px;
+  line-height: 24px;
 }
 @media (max-width: 992px) {
   .futuro-wrapper h2 {

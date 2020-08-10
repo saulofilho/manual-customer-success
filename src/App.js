@@ -5,7 +5,6 @@ import Vagas from './components/Vagas'
 import BolaDaVez from './components/BolaDaVez'
 import Acessar from './components/Acessar'
 import Idealizador from './components/Idealizador'
-import Livro from './components/Livro'
 import Carousel from './components/Carousel'
 import VaiAprender from './components/VaiAprender'
 import ParaMim from './components/ParaMim'
@@ -23,7 +22,6 @@ function App() {
       <BolaDaVez />
       <Acessar />
       <Idealizador />
-      <Livro />
       <Carousel />
       <VaiAprender />
       <ParaMim />

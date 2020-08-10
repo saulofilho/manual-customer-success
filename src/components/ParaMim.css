@@ -1,0 +1,17 @@
+.ParaMim {
+  background: var(--light-blue);
+  padding: 30px 0;
+}
+.paramim-wrapper {
+  background: #fff;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.para-texts-wrapper {
+  background: var(--blue);
+}
+.para-texts-wrapper::before {
+  background: var(--blue);
+}

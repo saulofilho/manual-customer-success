@@ -1,0 +1,37 @@
+.Valor {
+  background: var(--light-blue);
+  width: 100%;
+  height: auto;
+}
+.valor-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.valor-blue-box {
+  background: var(--blue);
+  width: 100%;
+  height: auto;
+  padding: 60px 40px;
+}
+.investimento-btn {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 10px 20px;
+  background: var(--red);
+  border-radius: 3px;
+  margin: 30px 0;
+}
+.investimento-btn:hover {
+  background: var(--blue);
+  color: var(--light-blue);
+  transition: 0.9s;
+}
+.investimento-wrapper {
+  background: #fff;
+  padding: 60px 40px;
+  width: 100%;
+  height: auto;
+}
