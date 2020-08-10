@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: "Decima Mono";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyr.otf");
+}
+@font-face {
+  font-family: "Decima Mono Bold";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyrBold.otf");
+}
+@font-face {
+  font-family: "Decima Mono Bold Italic";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyrBoldItalic.otf");
+}
+@font-face {
+  font-family: "Decima Mono Italic";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyrItalic.otf");
+}
+@font-face {
+  font-family: "Decima Mono Light";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyrLight.otf");
+}
+@font-face {
+  font-family: "Decima Mono Light Italic";
+  src: url("./assets/fonts/DecimaMono/DecimaMonoCyrLightItalic.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Decima Nova Bold";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-Bold.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Bold Italic";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Heavy";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-Heavy.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Heavy Italic";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-HeavyItalic.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Italic";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-Italic.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Light";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-Light.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Light Italic";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Decima Nova Regular";
+  src: url("./assets/fonts/DecimaNova/DecimaNova-Regular.ttf");
 }
