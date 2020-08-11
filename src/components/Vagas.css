@@ -1,11 +1,15 @@
+.Vagas {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+}
 .vagas-wrapper {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1140px;
-  padding: 80px 0;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
 }
 .vagas-card {
   background: #fff;
@@ -36,6 +40,32 @@
   font-family: "Open Sans";
   font-weight: bolder;
   padding: 0 0 20px;
+}
+.vagas-text-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: left;
+  width: 100%;
+  height: auto;
+  padding: 0 80px;
+}
+.vagas-text-wrapper h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 30px 0 0;
+}
+.vagas-text-wrapper p {
+  font-size: 26px;
+  color: #000;
+  font-family: "Decima Mono Bold";
+}
+.vagas-text-wrapper span {
+  font-size: 12px;
+  color: #000;
+  font-family: "Decima Mono Bold Italic";
+  padding: 10px 0 0;
 }
 .btn-vagas {
   font-size: 14px;

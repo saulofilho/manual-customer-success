@@ -1,23 +1,108 @@
 .Carousel {
   background: var(--light-blue);
+  padding: 50px 0;
+}
+.Carousel .texts h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 10px 0;
+}
+.Carousel .texts p {
+  font-size: 12px;
+  color: #000;
+  font-family: "Decima Mono Bold";
+  padding: 10px 0 30px;
+}
+.Carousel .texts span {
+  font-size: 12px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 .container-box {
-  margin: 0 10px;
+  margin: 0 20px;
   background: #fff;
   cursor: pointer;
+  padding: 60px 20px 30px;
+  width: auto;
+  height: 350px;
+}
+.container-box svg {
+  width: 50px;
+}
+.slick-current .slider-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 10px 100px 30px 0;
+}
+.slick-current .slider-subtitle {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 10px 100px 30px 0;
+}
+.slider-title {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 10px 100px 30px 0;
+}
+.slider-subtitle {
+  font-size: 12px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 10px 100px 30px 0;
+}
+.car-texts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.texts {
+  width: 100%;
+  height: auto;
+}
+.lines {
+  width: 100%;
+  height: auto;
+}
+.car-texts-wrapper .lines {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: column;
 }
 .slick-current .container-box {
   background: var(--blue);
 }
+.container-box .cls-1{
+  fill: none;
+  stroke: var(--red);
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.slick-current .container-box .cls-1{
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
 .slick-prev {
-  left: -50px !important;
+  left: -5% !important;
   z-index: 9 !important;
 }
 .slick-prev::before {
   content: url('../assets/vetores/arrow-left.png') !important;
 }
 .slick-next {
-  right: -50px !important;
+  right: -5% !important;
   z-index: 9 !important;
 }
 .slick-next::before {

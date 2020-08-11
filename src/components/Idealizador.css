@@ -1,5 +1,6 @@
 .Idealizador {
   background: var(--blue);
+  padding: 70px 0;
 }
 .idealizador-wrapper {
   display: flex;
@@ -12,14 +13,63 @@
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0 0 50px;
+}
+.ide-photo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.ide-text {
+  width: 100%;
+  height: auto;
+}
+.ide-text h2 {
+  font-size: 26px;
+  color: #fff;
+  font-family: "Decima Mono Bold";
+}
+.ide-text p {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 20px 0;
+}
+.ide-text span {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 0 0 20px;
 }
 .lugares-row {
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
   align-items: center;
+  padding: 20px 0 0;
 }
 .lugares-row img {
-  width: 100px;
+  width: 90px;
   height: auto;
+  margin-right: 20px;
+}
+.csweek {
+  width: 50px !important;
+}
+.hiram-photo {
+  width: auto;
+  height: 300px;
+}
+.ide-livro {
+  width: 100%;
+  height: auto;
+}
+.ide-livro img {
+  width: auto;
+  height: 500px;
 }

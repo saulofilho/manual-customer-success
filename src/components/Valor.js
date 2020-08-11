@@ -4,7 +4,7 @@ import RedLine from '../assets/vetores/linha-red.png';
 
 function Valor() {
   return (
-    <section className="Valor">
+    <section className="Valor" id="Valor">
       <div className="container">
         <div className="valor-wrapper">
           <div className="valor-blue-box-wrapper">

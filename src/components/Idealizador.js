@@ -3,7 +3,7 @@ import './Idealizador.css';
 import CSWeek from '../assets/images/logo-csweek.png';
 import RD from '../assets/images/logo-rdsummit.png';
 import TDC from '../assets/images/logo-tdc.png';
-import Livro from '../assets/images/Capa_CS_DVS4.jpg';
+import Livro from '../assets/images/livro-red.png';
 import Hiram from '../assets/images/img-hiram-damin.png';
 import RedLine from '../assets/vetores/linha-red.png';
 import WhiteLine from '../assets/vetores/linha-white.png';
@@ -14,34 +14,35 @@ function Idealizador() {
       <div className="idealizador-wrapper container">
         <div className="idealizador-item">
           <div className="ide-photo">
-            <img src={Hiram} alt=""/>
-            <img src={RedLine} alt=""/>
+            <img className="hiram-photo" src={Hiram} alt=""/>
+            <img className="red-line" src={RedLine} alt=""/>
           </div>
           <div className="ide-text">
-            <h2>
-              Idealizador 
-              <br/>
-              do Curso
-            </h2>
-            <p>
-              Autor do livro “Customer Success o Sucesso das Empresas Focadas em 
-              Clientes” , atua desde 2005 no mercado de comunicação e tecnologia. 
-              A partir de 2015 começa a atuar na área de Customer Success onde 
-              atendeu mais de 250 empresas no Brasil e no exterior.
-            </p>
-            <span>
-              Lugares que já palestrou:
-            </span>
-            <div className="lugares-row">
-              <img src={CSWeek} alt=""/>
-              <img src={RD} alt=""/>
-              <img src={TDC} alt=""/>
-            </div>
+            <img className="white-line" src={WhiteLine} alt=""/>
+              <h2>
+                Idealizador 
+                <br/>
+                do Curso
+              </h2>
+              <p>
+                Autor do livro “Customer Success o Sucesso das Empresas Focadas em 
+                Clientes” , atua desde 2005 no mercado de comunicação e tecnologia. 
+                A partir de 2015 começa a atuar na área de Customer Success onde 
+                atendeu mais de 250 empresas no Brasil e no exterior.
+              </p>
+              <span>
+                Lugares que já palestrou:
+              </span>
+              <div className="lugares-row">
+                <img className="csweek" src={CSWeek} alt=""/>
+                <img src={RD} alt=""/>
+                <img src={TDC} alt=""/>
+              </div>
           </div>
         </div>
         <div className="idealizador-item">
           <div className="ide-text">
-            <img src={WhiteLine} alt=""/>
+            <img className="white-line" src={WhiteLine} alt=""/>
             <h2>
               Sobre o livro que
               <br/>
@@ -56,6 +57,7 @@ function Idealizador() {
               com diversas empresas e profissionais que entregam sucesso aos seus
               clientes todos os dias. 
             </p>
+            <img className="red-line" src={RedLine} alt=""/>
           </div>
           <div className="ide-livro">
             <img src={Livro} alt="capa do livro customer success"/>

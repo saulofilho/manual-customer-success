@@ -68,16 +68,18 @@ function Hero() {
               Autor
             </p>
           </div>
-          <div className="hero-grid-item">
-            <img src={Cofre} alt="vetor cofre porco"/>
-            <p>
-              De R$ 1.299,00
-              <br/>
-              por apenas 899
-              <br/>
-              em até 6x
-            </p>
-          </div>
+          <a href="#Valor">
+            <div className="hero-grid-item">
+                <img src={Cofre} alt="vetor cofre porco"/>
+                <p>
+                  De R$ 1.299,00
+                  <br/>
+                  por apenas 899
+                  <br/>
+                  em até 6x
+                </p>
+            </div>
+          </a>
         </div>
       </div>
     </section>

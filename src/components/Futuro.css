@@ -18,12 +18,18 @@
 .futuro-row-text p { 
   font-size: 14px;
   font-family: 'Open Sans';
-  padding: 0 40px 0 100px;
+  padding: 0 40px 0 150px;
 }
 .futuro-row-black-box {
   background: #212222;
   padding: 40px;
   border-radius: 3px 3px 0 0;
+}
+.futuro-row-black-box:hover p {
+  color: #212222;
+}
+.futuro-row-black-box:hover {
+  background: var(--red);
 }
 .futuro-row-black-box p {
   color: #fff;

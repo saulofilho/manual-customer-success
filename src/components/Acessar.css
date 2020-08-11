@@ -1,3 +1,43 @@
+.Acessar {
+  width: 100%;
+  height: auto;
+}
+.Acessar > .container {
+  padding: 20px 70px 50px;
+}
 .acessar-wrapper {
   background: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.acessar-wrapper-text p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 50px 140px;
+  line-height: 30px;
+}
+.acessar-wrapper-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.acessar-wrapper-btn a {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 10px 20px;
+  background: #000;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+.acessar-wrapper-btn a:hover {
+  background: var(--light-blue);
+  color: var(--blue);
+  transition: 0.9s;
 }

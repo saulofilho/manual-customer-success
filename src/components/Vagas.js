@@ -5,7 +5,7 @@ import BlueLine from '../assets/vetores/linha-blue.png';
 function Vagas() {
   return (
     <section className="Vagas">
-      <div className="vagas-wrapper">
+      <div className="vagas-wrapper container">
         <div className="vagas-card-wrapper">
           <div className="vagas-card">
             <p className="vagas-card-title">
