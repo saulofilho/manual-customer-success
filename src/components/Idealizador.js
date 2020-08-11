@@ -40,7 +40,7 @@ function Idealizador() {
               </div>
           </div>
         </div>
-        <div className="idealizador-item">
+        <div className="idealizador-item" id="Livro">
           <div className="ide-text">
             <img className="white-line" src={WhiteLine} alt=""/>
             <h2>

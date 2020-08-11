@@ -108,3 +108,11 @@
 .slick-next::before {
   content: url('../assets/vetores/arrow-right.png') !important;
 }
+@media (max-width: 576px) {
+  .slick-prev {
+    left: 0 !important;
+  }
+  .slick-next {
+    right: 25px !important;
+  }
+}

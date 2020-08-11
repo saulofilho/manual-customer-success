@@ -41,3 +41,16 @@
   color: var(--blue);
   transition: 0.9s;
 }
+@media (max-width: 768px) {
+  .acessar-wrapper {
+    flex-flow: column;
+  }
+  .acessar-wrapper-text p {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .Acessar > .container {
+    padding: 20px 20px;
+  }
+}

@@ -2,18 +2,70 @@
   background: var(--light-blue);
   width: 100%;
   height: auto;
+  padding: 50px 0;
 }
 .valor-wrapper {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .valor-blue-box {
   background: var(--blue);
   width: 100%;
   height: auto;
-  padding: 60px 40px;
+  padding: 60px 20px;
+  border-radius: 0 3px 3px;
+  margin: 30px 0 0;
+}
+.up-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova";
+  text-align: center;
+  font-weight: bolder;
+}
+.up-preco {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova";
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bolder;
+}
+.up-preco-12 {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 0 0 30px;
+  text-align: center;
+}
+.down-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova";
+  text-align: center;
+  padding: 30px 0 0;
+  font-weight: bolder;
+}
+.down-subtitle {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 10px 30px 0;
+}
+.investimento-wrapper h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 30px;
+}
+.investimento-title {
+  font-size: 14px;
+  color: var(--gray);
+  font-family: "Open Sans";
+  padding: 0 0 50px;
 }
 .investimento-btn {
   font-size: 14px;
@@ -23,6 +75,13 @@
   background: var(--red);
   border-radius: 3px;
   margin: 30px 0;
+}
+.investimento-subtitle {
+  font-size: 14px;
+  color: #000;
+  font-family: "Decima Mono";
+  padding: 50px 0 0;
+  font-weight: bolder;
 }
 .investimento-btn:hover {
   background: var(--blue);
@@ -34,4 +93,12 @@
   padding: 60px 40px;
   width: 100%;
   height: auto;
+}
+@media (max-width: 768px) {
+  .valor-wrapper {
+    flex-flow: column;
+  }
+  .valor-blue-box {
+    padding: 60px 0;
+  }
 }

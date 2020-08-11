@@ -73,3 +73,14 @@
   width: auto;
   height: 500px;
 }
+@media (max-width: 768px) {
+  .idealizador-item {
+    flex-flow: column;
+  }
+  .ide-livro img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 576px) {
+}

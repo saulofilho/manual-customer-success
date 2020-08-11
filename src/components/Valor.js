@@ -1,6 +1,7 @@
 import React from 'react';
 import './Valor.css';
 import RedLine from '../assets/vetores/linha-red.png';
+import VerticalLine from '../assets/vetores/line-vertical.png';
 
 function Valor() {
   return (
@@ -23,15 +24,16 @@ function Valor() {
                   <br/>
                   Parcelado à vista
                 </p>
-                <span>
+                <p className="up-preco-12">
                   Em até 12x de R$ 59 ,90
-                </span>
+                </p>
               </div>
+              <img className="vertical-line" src={VerticalLine} alt=""/>
               <div className="valor-blue-box-down">
-                <p>
+                <p className="down-title">
                   De bônus ganhe:
                 </p>
-                <span>
+                <p className="down-subtitle">
                   Livro Customer Success o Sucesso das Empresas Focadas em Clientes
                   <br/>
                   <br/>
@@ -39,7 +41,7 @@ function Valor() {
                   <br/>
                   <br/>
                   Certificado de Conclusão
-                </span>
+                </p>
               </div>
             </div>
           </div>
@@ -49,7 +51,7 @@ function Valor() {
               <br/>
               do investimento?
             </h2>
-            <p>
+            <p className="investimento-title">
               O valor real deste conteúdo vai bem além do que precificamos. 
               <br/>
               Estudar com o Pai do Growth não tem preço e você irá 
@@ -61,7 +63,7 @@ function Valor() {
             <a className="investimento-btn" href="">
               Quero comprar agora
             </a>
-            <span>
+            <p className="investimento-subtitle">
               Satisfação Garantida
               <br/>
               Checkout Seguro
@@ -69,7 +71,7 @@ function Valor() {
               Plataforma Renomada
               <br/>
               Privacidade Protegida
-            </span>
+            </p>
           </div>
         </div>
       </div>

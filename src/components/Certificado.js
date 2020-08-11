@@ -6,7 +6,7 @@ import Book from '../assets/images/img-hiram-damin.png';
 
 function Certificado() {
   return (
-    <section className="Certificado">
+    <section className="Certificado" id="Certificado">
       <div className="container">
         <div className="certificado-wrapper">
           <div className="certificado-img">
@@ -17,21 +17,35 @@ function Certificado() {
           <div className="certificado-text">
             <img className="white-line" src={WhiteLine} alt=""/>
             <h2>
-              Certificação garantida por uma das maiores escolas de negócios do 
-              Brasil o Centro Europeu com a plataforma MICROSOFT SCHOOL.
+              Certificação
+              <br/>
+              garantida por uma 
+              <br/>
+              das maiores escolas 
+              <br/>
+              de negócios do 
+              <br/>
+              Brasil o Centro 
+              <br/>
+              Europeu com a 
+              <br/>
+              plataforma 
+              <br/>
+              MICROSOFT SCHOOL.
             </h2>
-            <p>
+            <p className="certi-title">
               Centro Europeu é uma das referências nacionais 
               <br/>
               em educação e negócios. 
             </p>
-            <span>
+            <p className="certi-subtitle">
               + de 50 cursos online e presenciais 
               <br/>
               + de 25.000 alunos ao longo de sua trajetória 
               <br/>
               Núcleo de Cursos Livres, em parceria com a plataforma MICROSOFT SCHOOL.
-            </span>
+            </p>
+            <img className="red-line" src={RedLine} alt=""/>
           </div>
         </div>
       </div>

@@ -6,34 +6,35 @@ import BlueLine from '../assets/vetores/linha-blue.png';
 function VaiAprender() {
   return (
     <section className="VaiAprender">
-      <div className="vaiaprender-wrapper container">
-        <div className="vai-title-wrapper">
-          <img className="red-line" src={RedLine} alt=""/>
-          <h1>
-            O que vai 
-            <br/>
-            aprender 
-            <br/>
-            também
-          </h1>
-          <img className="red-line" src={RedLine} alt=""/>
+      <div className="container">
+        <div className="vaiaprender-wrapper">
+          <div className="vai-title-wrapper">
+            <img className="red-line" src={RedLine} alt=""/>
+            <h2>
+              O que vai 
+              <br/>
+              aprender 
+              <br/>
+              também
+            </h2>
+            <img className="red-line" src={RedLine} alt=""/>
+          </div>
+          <div className="vai-texts-wrapper">
+            <ol>
+              <li><span>01 -</span> <strong>Intro:</strong> Atendimento e suas experiências</li>
+              <li><span>02 -</span> <strong>Customer Success não é um cargo.</strong> É uma mudança de mentalidade</li>
+              <li><span>03 -</span> <strong>Jornada do cliente:</strong> o caminho do CS</li>
+              <li><span>04 -</span> <strong>Suporte:</strong> o marco zero do Customer Success</li>
+              <li><span>05 -</span> <strong>Onboarding</strong> ou <strong>Implementação:</strong> os primeiros passos do cliente</li>
+              <li><span>06 -</span> <strong>Ongoing</strong> ou <strong>Adoção:</strong> o cliente rumo ao sucesso</li>
+              <li><span>07 -</span> Churn: como evitar, medir e controlar a evasão de clientes?</li>
+              <li><span>08 -</span> <strong>Ferramentas:</strong> dicas  para o seu dia a dia</li>
+              <li><span>09 -</span> <strong>Métricas de Sucesso</strong> em Customer Success</li>
+            </ol>
+          </div>
         </div>
-        <div className="vai-texts-wrapper">
-          <ol>
-            <li>01 - Intro: Atendimento e suas experiências</li>
-            <li>02 - Customer Success não é um cargo. É uma mudança de mentalidade</li>
-            <li>03 - Jornada do cliente: o caminho do CS</li>
-            <li>04 - Suporte: o marco zero do Customer Success</li>
-            <li>05 - Onboarding ou Implementação: os primeiros passos do cliente</li>
-            <li>06 - Ongoing ou Adoção: o cliente rumo ao sucesso</li>
-            <li>07 - Churn: como evitar, medir e controlar a evasão de clientes?</li>
-            <li>08 - Ferramentas: dicas  para o seu dia a dia</li>
-            <li>09 - Métricas de Sucesso em Customer Success</li>
-          </ol>
-          <img className="red-line" src={RedLine} alt=""/>
-        </div>
+        <img className="blue-line" src={BlueLine} alt=""/>
       </div>
-      <img className="blue-line" src={BlueLine} alt=""/>
     </section>
   );
 }

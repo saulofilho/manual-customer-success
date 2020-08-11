@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import smoothscroll from 'smoothscroll-polyfill';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
+AOS.init();
 smoothscroll.polyfill();
 
 ReactDOM.render(

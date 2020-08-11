@@ -2,10 +2,54 @@
   background: var(--light-blue);
   padding: 30px 0;
 }
+.VaiAprender .blue-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+}
 .vaiaprender-wrapper {
   background: #fff;
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 80px 100px;
+  width: 100%;
+  height: auto;
+}
+.vai-title-wrapper {
+  width: 100%;
+  height: auto;
+}
+.vai-title-wrapper h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 50px;
+}
+.vai-texts-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 20px 0 0;
+  position: relative;
+  left: -40px;
+}
+.vai-texts-wrapper li {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  line-height: 26px;
+}
+.vai-texts-wrapper li span {
+  font-size: 14px;
+  color: var(--red);
+  font-family: "Decima Mono Bold";
+}
+@media (max-width: 768px) {
+  .vaiaprender-wrapper {
+    flex-flow: column;
+  }
 }

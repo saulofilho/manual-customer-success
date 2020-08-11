@@ -11,6 +11,10 @@
   width: 100%;
   height: auto;
 }
+.vagas-card-wrapper {
+  width: 100%;
+  height: auto;
+}
 .vagas-card {
   background: #fff;
   -webkit-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
@@ -79,4 +83,12 @@
   background: var(--blue);
   color: var(--light-blue);
   transition: 0.9s;
+}
+@media (max-width: 768px) {
+  .vagas-wrapper {
+    flex-flow: column;
+  }
+  .vagas-card {
+    margin: 0 0 50px;
+  }
 }

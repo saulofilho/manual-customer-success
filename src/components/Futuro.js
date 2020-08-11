@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Futuro.css';
 import RedLine from '../assets/vetores/linha-red.png';
 import BlueLine from '../assets/vetores/linha-blue.png';
@@ -26,7 +26,16 @@ function Futuro() {
               essa metodologia e possuem a mentalidade certa de crescer junto 
               com seus clientes.
             </p>
-            <img className="red-line" src={RedLine} alt="linha vermelha"/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt="linha vermelha"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
           <div className="futuro-row-black-box-wrapper">
             <div className="futuro-row-black-box">
@@ -36,7 +45,16 @@ function Futuro() {
                 aplicada e comprovada em milhares de empresa no Brasil e no mundo.
               </p>
             </div>
-            <img className="blue-line" src={BlueLine} alt="linha azul"/>
+            <img 
+              className="blue-line" 
+              src={BlueLine} 
+              alt="linha azul"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
       </div>

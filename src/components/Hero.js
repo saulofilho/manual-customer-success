@@ -38,44 +38,41 @@ function Hero() {
             <img src={Relogio} alt="vetor relogio"/>
             <p>
               5h30 de 
-              <br/>
               conteúdo
-              <br/>
               on-line
             </p>
           </div>
-          <div className="hero-grid-item">
-            <img src={Chapeu} alt="vetor chapeu"/>
-            <p>
-              Certificado
-            </p>
-          </div>
+          <a href="#Certificado">
+            <div className="hero-grid-item">
+              <img src={Chapeu} alt="vetor chapeu"/>
+              <p>
+                Certificado
+              </p>
+            </div>
+          </a>
           <div className="hero-grid-item">
             <img src={Calendario} alt="vetor calendario"/>
             <p>
               Material de
-              <br/>
               apoio para
-              <br/>
               projetos
             </p>
           </div>
-          <div className="hero-grid-item">
-            <img src={Livro} alt="vetor livro"/>
-            <p>
-              Livro do
-              <br/>
-              Autor
-            </p>
-          </div>
+          <a href="#Livro">
+            <div className="hero-grid-item">
+              <img src={Livro} alt="vetor livro"/>
+              <p>
+                Livro do
+                Autor
+              </p>
+            </div>
+          </a>
           <a href="#Valor">
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
                   De R$ 1.299,00
-                  <br/>
                   por apenas 899
-                  <br/>
                   em até 6x
                 </p>
             </div>

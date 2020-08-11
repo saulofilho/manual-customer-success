@@ -1,10 +1,47 @@
+.QuemConfia {
+  width: 100%;
+  height: auto;
+  background: var(--light-blue);
+}
+.QuemConfia h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 50px;
+}
+.autor {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 10px 0 20px;
+}
+.autor-subtitle {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: bolder;
+  padding: 0 0 20px;
+}
+.autor-about {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+}
 .quem-confia-wrapper {
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background: var(--red);
 }
 .red-box {
   padding: 0 50px;
+}
+@media (max-width: 768px) {
+  .quem-confia-wrapper {
+    flex-flow: column;
+  }
+  iframe {
+    width: 100%;
+  }
 }

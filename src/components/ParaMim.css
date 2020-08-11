@@ -1,6 +1,7 @@
 .ParaMim {
   background: var(--light-blue);
   padding: 30px 0;
+  position: relative;
 }
 .paramim-wrapper {
   background: #fff;
@@ -8,10 +9,83 @@
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  padding: 80px 100px;
+  width: 100%;
+  height: auto;
+}
+.paramim-wrapper h2 {
+  font-size: 26px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 50px;
+}
+.para-title-wrapper p {
+  font-size: 14px;
+  color: var(--gray);
+  font-family: "Open Sans";
+  padding: 0 50px 0 0;
+}
+.para-title-wrapper {
+  width: 100%;
+  height: auto;
 }
 .para-texts-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 40px 20px;
   background: var(--blue);
 }
 .para-texts-wrapper::before {
+  content: '';
+  height: 500px;
+  width: 52%;
   background: var(--blue);
+  z-index: 1;
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
+.para-texts-wrapper p {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono Bold";
+  padding: 0 50px 20px 0;
+  position: relative;
+  z-index: 9;
+}
+.para-texts-wrapper .red-line {
+  position: relative;
+  z-index: 9;
+  top: 72px;
+  left: -38px;
+}
+.num-txt-wrap {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.num-txt-wrap .number {
+  font-size: 26px;
+  color: #fff;
+  font-family: "Decima Mono Bold";
+  padding: 0 20px 0 0;
+  position: relative;
+  z-index: 9;
+}
+.num-txt-wrap p {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 0 50px 30px 0;
+  position: relative;
+  z-index: 9;
+}
+@media (max-width: 768px) {
+  .paramim-wrapper {
+    flex-flow: column;
+  }
+  .para-texts-wrapper::before {
+    content: unset;
+  }
 }

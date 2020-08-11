@@ -2,16 +2,17 @@ import React from 'react';
 import './QuemConfia.css';
 import Ok from '../assets/vetores/ok.png';
 import BlueLine from '../assets/vetores/linha-blue.png';
+import HorizontalLine from '../assets/vetores/line-horizontal.png';
 
 function QuemConfia() {
   return (
     <section className="QuemConfia">
-      <h2 className="container">
-        Veja quem confia
-        <br/>
-        na gente :)
-      </h2>
       <div className="container">
+        <h2>
+          Veja quem confia
+          <br/>
+          na gente :)
+        </h2>
         <div className="quem-confia-wrapper">
           <div className="red-box">
             <img src={Ok} alt="vetor like"/>
@@ -25,7 +26,7 @@ function QuemConfia() {
               <br/>
               elit, sed diam nonummy nibh euismod tincidunt ut
             </p>
-            <span>
+            <p className="autor-about">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
               <br/>
               sed diam nonummy nibh euismod tincidunt ut laoreet 
@@ -33,8 +34,9 @@ function QuemConfia() {
               dolore magna aliquam erat volutpat. Ut wisi enim ad 
               <br/>
               minim veniam, quis nostrud exerci tation 
-            </span>
+            </p>
           </div>
+          <img src={HorizontalLine} alt="linha horizontal"/>
           <iframe 
             title="youtube"
             width="560" 

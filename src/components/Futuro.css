@@ -49,16 +49,16 @@
 }
 @media (max-width: 768px) {
   .futuro-wrapper h2 {
-    padding: 550px 0 50px;
+    padding: 650px 0 50px;
+  }
+  .futuro-row-text p { 
+    padding: 0 40px 50px 0;
   }
   .futuro-row { 
     flex-flow: column;
   }
 }
 @media (max-width: 576px) {
-  .futuro-wrapper h2 {
-    padding: 950px 0 50px;
-  }
   .hero-grid {
     grid-template-columns: 1fr;
   }
