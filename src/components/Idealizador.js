@@ -24,15 +24,15 @@ function Idealizador() {
                 <br/>
                 do Curso
               </h2>
-              <p>
+              <p className="autor-livro">
                 Autor do livro “Customer Success o Sucesso das Empresas Focadas em 
                 Clientes” , atua desde 2005 no mercado de comunicação e tecnologia. 
                 A partir de 2015 começa a atuar na área de Customer Success onde 
                 atendeu mais de 250 empresas no Brasil e no exterior.
               </p>
-              <span>
+              <p className="autor-palestra">
                 Lugares que já palestrou:
-              </span>
+              </p>
               <div className="lugares-row">
                 <img className="csweek" src={CSWeek} alt=""/>
                 <img src={RD} alt=""/>
@@ -48,7 +48,7 @@ function Idealizador() {
               <br/>
               inspirou o curso
             </h2>
-            <p>
+            <p className="autor-livro">
               Com uma média de 4 livros vendidos ao dia e chegando as 1.000 
               cópias vendidas, o livro “Customer Success o Sucesso das Empresas 
               Focadas em Clientes” é o primeiro livro a falar de CS com foco no 

@@ -8,6 +8,19 @@ import Livro from '../assets/vetores/livro.png';
 import Cofre from '../assets/vetores/cofre.png';
 
 function Hero() {
+
+  const scrollToCertificado = () => {
+    document.querySelector('#Certificado').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const scrollToLivro = () => {
+    document.querySelector('#Livro').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const scrollToValor = () => {
+    document.querySelector('#Valor').scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <section className="Hero">
       <div 
@@ -42,14 +55,18 @@ function Hero() {
               on-line
             </p>
           </div>
-          <a href="#Certificado">
+          <button
+            onClick={() => {
+              scrollToCertificado()
+            }}
+          >
             <div className="hero-grid-item">
               <img src={Chapeu} alt="vetor chapeu"/>
               <p>
                 Certificado
               </p>
             </div>
-          </a>
+          </button>
           <div className="hero-grid-item">
             <img src={Calendario} alt="vetor calendario"/>
             <p>
@@ -58,7 +75,11 @@ function Hero() {
               projetos
             </p>
           </div>
-          <a href="#Livro">
+          <button
+              onClick={() => {
+                scrollToLivro()
+              }}
+            >
             <div className="hero-grid-item">
               <img src={Livro} alt="vetor livro"/>
               <p>
@@ -66,8 +87,12 @@ function Hero() {
                 Autor
               </p>
             </div>
-          </a>
-          <a href="#Valor">
+          </button>
+          <button
+              onClick={() => {
+                scrollToValor()
+              }}
+            >
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
@@ -76,7 +101,7 @@ function Hero() {
                   em até 6x
                 </p>
             </div>
-          </a>
+          </button>
         </div>
       </div>
     </section>

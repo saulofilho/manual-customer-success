@@ -6,6 +6,28 @@ import "slick-carousel/slick/slick-theme.css";
 import BlueLine from '../assets/vetores/linha-blue.png';
 
 function Carousel() {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "red" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
   const settings = {
     dots: false,
     infinite: true,
@@ -15,6 +37,8 @@ function Carousel() {
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -40,18 +64,18 @@ function Carousel() {
             <br />
             o ciclo final.
           </h2>
-          <p>
+          <p className="texts-title">
             Você irá aprender todas as principais técnicas para
             <br />
             atuar como um Customer Success
           </p>
-          <span>
+          <p className="texts-subtitle">
             Nossa missão é que você conquiste uma nova vaga, uma promoção ou possa
             <br />
             acelerar os seus negócios e ser reconhecido (a) por seus resultados com
             <br />
             foco no sucesso de seus clientes.
-          </span>
+          </p>
         </div>
         <div className="lines">
           <img className="blue-line" src={BlueLine} alt=""/>

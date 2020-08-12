@@ -23,8 +23,10 @@ function Vagas() {
               dos clientes, além de ser tecnicamente capaz de garantir que eles 
               estejam usando o produtor com a máxima...
             </p>
-            <a className="btn-vagas" href="">
-              Quero me cadastrar
+            <a href="">
+              <button className="btn-vagas">
+                Quero me cadastrar 
+              </button>
             </a>
           </div>
           <img src={BlueLine} alt="" className="blue-line"/>
@@ -32,14 +34,20 @@ function Vagas() {
         <div className="vagas-text-wrapper">
           <img src={BlueLine} alt="" className="blue-line"/>
           <h2>
-            Mais de 500 vagas* para Customer Success oferecidas em todo o Brasil. 
+            Mais de 500 vagas* 
+            <br/>
+            para Customer 
+            <br/>
+            Success oferecidas 
+            <br/>
+            em todo o Brasil. 
           </h2>
-          <p>
+          <p className="vagas-salarios">
             Com salários chegando até R$15.000,00**
           </p>
-          <span>
+          <p className="vagas-fontes">
             Fontes: *LinkedIn e **Catho
-          </span>
+          </p>
         </div>
       </div>
     </section>

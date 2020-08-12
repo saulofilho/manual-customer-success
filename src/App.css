@@ -1,10 +1,12 @@
 :root {
-  --red: #E72750;
+  --red: #EA234E;
   --blue: #3B5CAA;
   --dark-blue: #17477E;
-  --light-blue: #EDF5FC;
+  --light-blue: #E3F1FC;
   --black: #212222;
   --gray: #7C8398;
+  --dark-gray: #505150;
+  --black: #212222;
 }
 html,
 body {
@@ -48,6 +50,7 @@ li {
 button {
   cursor: pointer;
   background: transparent;
+  border: initial;
 }
 .container {
   margin: 0 auto;

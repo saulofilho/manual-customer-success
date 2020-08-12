@@ -3,6 +3,13 @@
   width: 100%;
   height: auto;
 }
+.Vagas .blue-line {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
 .vagas-wrapper {
   display: flex;
   flex-flow: row;
@@ -22,28 +29,28 @@
   box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
   width: 100%;
   height: auto;
-  padding: 80px 40px;
+  padding: 60px 60px;
 }
 .vagas-card-title {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   font-family: "Open Sans";
   font-weight: bolder;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
 }
 .vagas-card-subtitle {
-  font-size: 14px;
+  font-size: 12px;
   color: var(--blue);
   font-family: "Open Sans";
   font-weight: bolder;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
 }
 .vagas-card-about {
   font-size: 12px;
   color: var(--gray);
   font-family: "Open Sans";
-  font-weight: bolder;
-  padding: 0 0 20px;
+  font-weight: 600;
+  padding: 0 0 10px;
 }
 .vagas-text-wrapper {
   display: flex;
@@ -60,12 +67,12 @@
   font-family: "Decima Mono Bold";
   padding: 30px 0 0;
 }
-.vagas-text-wrapper p {
+.vagas-salarios {
   font-size: 26px;
   color: #000;
   font-family: "Decima Mono Bold";
 }
-.vagas-text-wrapper span {
+.vagas-fontes {
   font-size: 12px;
   color: #000;
   font-family: "Decima Mono Bold Italic";
@@ -78,6 +85,7 @@
   padding: 10px 20px;
   background: var(--red);
   border-radius: 3px;
+  margin: 10px 0;
 }
 .btn-vagas:hover {
   background: var(--blue);

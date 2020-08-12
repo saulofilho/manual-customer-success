@@ -8,20 +8,20 @@
   font-family: "Decima Mono Bold";
   padding: 10px 0;
 }
-.Carousel .texts p {
+.Carousel .texts .texts-title {
   font-size: 12px;
   color: #000;
   font-family: "Decima Mono Bold";
   padding: 10px 0 30px;
 }
-.Carousel .texts span {
+.Carousel .texts .texts-subtitle {
   font-size: 12px;
   color: #000;
   font-family: "Open Sans";
   font-weight: 600;
 }
 .container-box {
-  margin: 0 20px;
+  margin: 0 10px;
   background: #fff;
   cursor: pointer;
   padding: 60px 20px 30px;
@@ -62,7 +62,7 @@
 .car-texts-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-flow: row;
 }
 .texts {
@@ -72,6 +72,9 @@
 .lines {
   width: 100%;
   height: auto;
+}
+.lines img:first-child {
+  margin: 0 200px 50px 0;
 }
 .car-texts-wrapper .lines {
   display: flex;
@@ -94,7 +97,7 @@
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
-.slick-prev {
+/* .slick-prev {
   left: -5% !important;
   z-index: 9 !important;
 }
@@ -107,12 +110,15 @@
 }
 .slick-next::before {
   content: url('../assets/vetores/arrow-right.png') !important;
-}
+} */
 @media (max-width: 576px) {
   .slick-prev {
     left: 0 !important;
   }
   .slick-next {
     right: 25px !important;
+  }
+  .car-texts-wrapper {
+    flex-flow: column;
   }
 }
