@@ -36,7 +36,7 @@ function QuemConfia() {
               minim veniam, quis nostrud exerci tation 
             </p>
           </div>
-          <img src={HorizontalLine} alt="linha horizontal"/>
+          <img className="linha-red-box" src={HorizontalLine} alt="linha horizontal"/>
           <iframe 
             title="youtube"
             width="560" 
@@ -48,7 +48,16 @@ function QuemConfia() {
           >
           </iframe>
         </div>
-        <img className="blue-line" src={BlueLine} alt=""/>
+        <img 
+          className="blue-line display-none-700" 
+          src={BlueLine} 
+          alt=""
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        />
       </div>
     </section>
   );

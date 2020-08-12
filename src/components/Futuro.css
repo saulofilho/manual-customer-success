@@ -68,9 +68,15 @@
   .futuro-row { 
     flex-flow: column;
   }
+  .futuro-row-text { 
+    padding: 0 40px 0 80px;
+  }
 }
 @media (max-width: 576px) {
   .hero-grid {
     grid-template-columns: 1fr;
+  }
+  .futuro-row-text { 
+    padding: 0 0 0 0;
   }
 }

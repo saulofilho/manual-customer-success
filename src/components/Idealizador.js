@@ -15,10 +15,28 @@ function Idealizador() {
         <div className="idealizador-item">
           <div className="ide-photo">
             <img className="hiram-photo" src={Hiram} alt=""/>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt="linha vermelha animada"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
           <div className="ide-text">
-            <img className="white-line" src={WhiteLine} alt=""/>
+            <img 
+              className="white-line" 
+              src={WhiteLine} 
+              alt="linha branca animada"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
               <h2>
                 Idealizador 
                 <br/>
@@ -42,7 +60,16 @@ function Idealizador() {
         </div>
         <div className="idealizador-item" id="Livro">
           <div className="ide-text">
-            <img className="white-line" src={WhiteLine} alt=""/>
+            <img 
+              className="white-line" 
+              src={WhiteLine} 
+              alt="linha branca animada"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <h2>
               Sobre o livro que
               <br/>
@@ -57,7 +84,16 @@ function Idealizador() {
               com diversas empresas e profissionais que entregam sucesso aos seus
               clientes todos os dias. 
             </p>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt="linha vermelha animada"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
           <div className="ide-livro">
             <img src={Livro} alt="capa do livro customer success"/>

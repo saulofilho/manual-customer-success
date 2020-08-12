@@ -11,11 +11,38 @@ function Certificado() {
         <div className="certificado-wrapper">
           <div className="certificado-img">
             <img className="book" src={Book} alt=""/>
-            <img className="red-line" src={RedLine} alt=""/>
-            <img className="white-line" src={WhiteLine} alt=""/>
+            <img 
+              className="red-line display-none-700" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
+            <img 
+              className="white-line display-none-700" 
+              src={WhiteLine} 
+              alt=""
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
           <div className="certificado-text">
-            <img className="white-line" src={WhiteLine} alt=""/>
+            <img 
+              className="white-line" 
+              src={WhiteLine} 
+              alt=""
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <h2>
               Certificação
               <br/>
@@ -45,7 +72,16 @@ function Certificado() {
               <br/>
               Núcleo de Cursos Livres, em parceria com a plataforma MICROSOFT SCHOOL.
             </p>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
       </div>

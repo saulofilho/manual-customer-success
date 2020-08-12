@@ -92,6 +92,15 @@
     width: 100%;
     height: auto;
   }
+  .ide-photo {
+    align-items: center;
+  }
 }
 @media (max-width: 576px) {
+  .ide-photo {
+    padding: 0 0;
+  }
+  .ide-text {
+    padding: 0 0;
+  }
 }

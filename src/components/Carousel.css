@@ -97,26 +97,43 @@
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
-/* .slick-prev {
+.slick-prev {
   left: -5% !important;
   z-index: 9 !important;
+  background-image: url('../assets/vetores/arrow-left.png') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 30px !important;
+  height: 100% !important;
 }
 .slick-prev::before {
-  content: url('../assets/vetores/arrow-left.png') !important;
+  content: '' !important;
 }
 .slick-next {
   right: -5% !important;
   z-index: 9 !important;
+  background-image: url('../assets/vetores/arrow-right.png') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 30px !important;
+  height: 100% !important;
 }
 .slick-next::before {
-  content: url('../assets/vetores/arrow-right.png') !important;
-} */
+  content: '' !important;
+}
+@media (max-width: 768px) {
+  .lines {
+    padding: 20px 0;
+  }
+}
 @media (max-width: 576px) {
   .slick-prev {
     left: 0 !important;
   }
   .slick-next {
-    right: 25px !important;
+    right: 0 !important;
   }
   .car-texts-wrapper {
     flex-flow: column;

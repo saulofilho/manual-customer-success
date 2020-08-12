@@ -1,7 +1,6 @@
 import React from 'react';
 import './ParaMim.css';
 import RedLine from '../assets/vetores/linha-red.png';
-import BlueLine from '../assets/vetores/linha-blue.png';
 
 function ParaMim() {
   return (
@@ -9,8 +8,26 @@ function ParaMim() {
       <div className="container">
         <div className="paramim-wrapper">
           <div className="para-title-wrapper">
-            <img className="red-line" src={RedLine} alt=""/>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+                            data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <h2>
               Como saber se o 
               <br/>
@@ -63,7 +80,16 @@ function ParaMim() {
                 </div>
               </div>
             </div>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
       </div>

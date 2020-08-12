@@ -29,10 +29,28 @@ function Vagas() {
               </button>
             </a>
           </div>
-          <img src={BlueLine} alt="" className="blue-line"/>
+          <img 
+            src={BlueLine} 
+            alt="" 
+            className="blue-line"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          />
         </div>
         <div className="vagas-text-wrapper">
-          <img src={BlueLine} alt="" className="blue-line"/>
+          <img 
+            src={BlueLine} 
+            alt="" 
+            className="blue-line"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          />
           <h2>
             Mais de 500 vagas* 
             <br/>

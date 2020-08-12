@@ -9,7 +9,16 @@ function BolaDaVez() {
       <div className="container">
         <div className="boladavez-wrapper">
           <div className="boladavez-title-wrapper">
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt="linha vermelha animada"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <h2>
             Porque 
             <br/>
@@ -38,7 +47,16 @@ function BolaDaVez() {
           </div>
         </div>
       </div>
-      <img className="blue-line" src={BlueLine} alt=""/>
+      <img 
+        className="blue-line" 
+        src={BlueLine} 
+        alt=""
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      />
     </section>
   );
 }

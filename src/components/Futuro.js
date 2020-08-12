@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Futuro.css';
 import RedLine from '../assets/vetores/linha-red.png';
 import BlueLine from '../assets/vetores/linha-blue.png';

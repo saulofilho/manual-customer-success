@@ -3,6 +3,13 @@
   height: auto;
   background: var(--light-blue);
 }
+.QuemConfia .blue-line {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
 .QuemConfia h2 {
   font-size: 26px;
   color: var(--blue);
@@ -43,5 +50,11 @@
   }
   iframe {
     width: 100%;
+  }
+  .red-box {
+    padding: 50px 20px;
+  }
+  .linha-red-box {
+    display: none;
   }
 }

@@ -6,28 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import BlueLine from '../assets/vetores/linha-blue.png';
 
 function Carousel() {
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "red" }}
-        onClick={onClick}
-      />
-    );
-  }
-  
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "green" }}
-        onClick={onClick}
-      />
-    );
-  }
-  
   const settings = {
     dots: false,
     infinite: true,
@@ -37,8 +15,6 @@ function Carousel() {
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -78,8 +54,26 @@ function Carousel() {
           </p>
         </div>
         <div className="lines">
-          <img className="blue-line" src={BlueLine} alt=""/>
-          <img className="blue-line" src={BlueLine} alt=""/>
+          <img 
+            className="blue-line" 
+            src={BlueLine} 
+            alt="linha azul animada"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          />
+          <img 
+            className="blue-line" 
+            src={BlueLine} 
+            alt="linha azul animada"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          />
         </div>
       </div>
       <div className="container">

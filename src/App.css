@@ -67,15 +67,24 @@ button {
   .container {
     max-width: 960px;
   }
+  .display-none-900 {
+    display: none !important;
+  }
 }
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .display-none-700 {
+    display: none !important;
   }
 }
 @media (max-width: 576px) {
   .container {
     max-width: 540px;
     padding: 20px 20px;
+  }
+  .display-none-500 {
+    display: none !important;
   }
 }

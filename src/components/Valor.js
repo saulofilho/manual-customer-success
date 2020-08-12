@@ -9,7 +9,16 @@ function Valor() {
       <div className="container">
         <div className="valor-wrapper">
           <div className="valor-blue-box-wrapper">
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <div className="valor-blue-box">
               <div className="valor-blue-box-up">
                 <p className="up-title">

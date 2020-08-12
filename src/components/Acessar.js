@@ -18,7 +18,16 @@ function Acessar() {
             <a href="">
               Quero acessar agora
             </a>
-            <img className="white-line" src={WhiteLine} alt=""/>
+            <img 
+              className="white-line" 
+              src={WhiteLine} 
+              alt="linha branca animada"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
       </div>

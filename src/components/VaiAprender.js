@@ -9,7 +9,16 @@ function VaiAprender() {
       <div className="container">
         <div className="vaiaprender-wrapper">
           <div className="vai-title-wrapper">
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
             <h2>
               O que vai 
               <br/>
@@ -17,7 +26,16 @@ function VaiAprender() {
               <br/>
               também
             </h2>
-            <img className="red-line" src={RedLine} alt=""/>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt=""
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
           <div className="vai-texts-wrapper">
             <ol>
@@ -33,7 +51,16 @@ function VaiAprender() {
             </ol>
           </div>
         </div>
-        <img className="blue-line" src={BlueLine} alt=""/>
+        <img 
+          className="blue-line" 
+          src={BlueLine} 
+          alt=""
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        />
       </div>
     </section>
   );

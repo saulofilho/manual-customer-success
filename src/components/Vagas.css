@@ -99,4 +99,7 @@
   .vagas-card {
     margin: 0 0 50px;
   }
+  .vagas-text-wrapper {
+    padding: 0 0;
+  }
 }

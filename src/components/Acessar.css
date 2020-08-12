@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: row;
+  height: auto;
 }
 .acessar-wrapper-text {
   width: 100%;
@@ -51,6 +52,9 @@
   }
   .acessar-wrapper-text p {
     padding: 50px 20px;
+  }
+  .acessar-wrapper {
+    padding: 50px 0;
   }
 }
 @media (max-width: 576px) {
