@@ -14,7 +14,8 @@
   height: auto;
 }
 .paramim-wrapper h2 {
-  font-size: 26px;
+  font-size: 32px;
+  line-height: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
   padding: 0 0 50px;
@@ -23,10 +24,10 @@
   font-size: 14px;
   color: var(--gray);
   font-family: "Open Sans";
-  padding: 0 50px 0 0;
+  padding: 0 70px 0 0;
 }
 .para-title-wrapper .red-line {
-  padding: 0 0 20px;
+  padding: 0 0 40px;
 }
 .para-title-wrapper .red-line:nth-of-type(2) {
   position: relative;
@@ -45,7 +46,7 @@
 }
 .para-texts-wrapper::before {
   content: '';
-  height: 500px;
+  height: 67%;
   width: 52%;
   background: var(--blue);
   z-index: 1;
@@ -57,14 +58,14 @@
   font-size: 14px;
   color: #fff;
   font-family: "Decima Mono Bold";
-  padding: 0 50px 20px 0;
+  padding: 30px 50px 20px 0;
   position: relative;
   z-index: 9;
 }
 .para-texts-wrapper .red-line {
   position: relative;
   z-index: 9;
-  top: 72px;
+  top: 67px;
   left: -35px;
 }
 .num-txt-wrap {
@@ -89,6 +90,9 @@
   position: relative;
   z-index: 9;
 }
+.num-txt-wrap .padding-zero {
+  padding: 0 50px 0 0;
+}
 @media (max-width: 768px) {
   .paramim-wrapper {
     flex-flow: column;
@@ -104,7 +108,16 @@
   }
   .para-texts-wrapper p {
     padding: 0 0 20px 0;
-}
+  }
+  .para-title-wrapper .red-line:nth-of-type(2) {
+    top: -60px;
+  }
+  .para-title-wrapper .red-line {
+    padding: 40px 0 40px;
+  }
+  .ParaMim .container {
+    padding: 20px 0;
+  }
 }
 @media (max-width: 1100px) {
   .para-texts-wrapper::before {

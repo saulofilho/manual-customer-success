@@ -11,22 +11,12 @@ function ParaMim() {
             <img 
               className="red-line" 
               src={RedLine} 
-              alt=""
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+              alt="linha vermelha"
             />
             <img 
               className="red-line" 
               src={RedLine} 
-              alt=""
-                            data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+              alt="linha vermelha"
             />
             <h2>
               Como saber se o 
@@ -38,9 +28,9 @@ function ParaMim() {
               é para mim?
             </h2>
             <p>
-              Esse é um curso de base e estratégia em Customer Success, Hiram Damin 
-              faz um percurso por todos os pontos, desde do que é a mentalidade de 
-              CS até entrar em ação em dashboards dentro da sua empresa. Não importa 
+              Esse é um curso de base e estratégia em Customer Success. 
+              Hiram Damin faz um percurso por todos os pontos, desde a mentalidade 
+              de CS até a atuação em dashboards dentro da sua empresa. Não importa 
               seu nicho de mercado, se você busca uma vaga no setor ou é da área de 
               Produto, Marketing, Vendas e CS, esse curso é feito para você.
             </p>
@@ -74,7 +64,7 @@ function ParaMim() {
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/04</p>
-                  <p>
+                  <p className="padding-zero">
                     Profissionais em geral que querem <strong>melhorar seu atendimento</strong> com o sucesso do cliente
                   </p>
                 </div>
@@ -83,12 +73,7 @@ function ParaMim() {
             <img 
               className="red-line" 
               src={RedLine} 
-              alt=""
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+              alt="linha vermelha"
             />
           </div>
         </div>

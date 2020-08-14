@@ -13,11 +13,6 @@ function BolaDaVez() {
               className="red-line" 
               src={RedLine} 
               alt="linha vermelha animada"
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
             />
             <h2>
             Porque 
@@ -33,16 +28,16 @@ function BolaDaVez() {
           </div>
           <div className="blue-box">
             <p className="container">
-              Uma das posições mais estratégicas das empresas que estão no top 10 
-              do mercado e uma das mais buscadas pelas maiores empresas do Brasil. 
+              Uma das posições estratégicas das empresas que estão no Top 10 do 
+              mercado e uma das mais buscadas pelas maiores empresas do Brasil. 
               Não é à toa que as maiores empresas do país chegaram onde estão por 
               estarem focadas em um objetivo: <strong>o sucesso dos seus clientes.</strong>
               <br/>
               <br/>
-              Diariamente surgem uma novas vagas no mercado na área de <strong>Customer Success</strong> e uma das maiores dificuldades 
-              dos recrutadores é a mão de obra qualificada. Gente que entende da 
-              metodologia e sabe como aplicar no seu dia a dia. Uma profissão que 
-              vale ouro no mercado.
+              Diariamente surgem novas vagas no mercado na área de <strong>Customer Success</strong> 
+              e uma das maiores dificuldades dos recrutadores é a mão de obra qualificada. 
+              Gente que entende da metodologia e sabe como aplicá-la no dia a dia. 
+              É uma profissão que hoje vale ouro no mercado!
             </p>
           </div>
         </div>
@@ -50,12 +45,7 @@ function BolaDaVez() {
       <img 
         className="blue-line" 
         src={BlueLine} 
-        alt=""
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="150"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
+        alt="linha azul"
       />
     </section>
   );

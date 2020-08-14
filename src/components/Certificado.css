@@ -22,37 +22,34 @@
   top: 30px;
 }
 .certificado-text h2 {
-  font-size: 26px;
+  font-size: 32px;
   color: #fff;
   font-family: "Decima Mono Bold";
-  padding: 10px 0 0;
+  padding: 10px 0 20px;
 }
 .certificado-img {
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
 }
 .certificado-img .red-line {
-  position: absolute;
-  z-index: 9;
-  bottom: 70px;
+  padding: 150px 0 20px 0;
 }
 .certificado-img .white-line {
-  position: absolute;
-  z-index: 9;
-  left: 350px;
-  bottom: 50px;
+  margin: 0 0 0 80px;
 }
 .book {
   width: auto;
   height: 350px;
   z-index: 9;
-  position: relative;
-  left: 50px;
 }
 .certificado-img::before {
   content: '';
   height: 300px;
-  width: 40%;
+  width: 30%;
   background: var(--red);
   z-index: 1;
   position: absolute;

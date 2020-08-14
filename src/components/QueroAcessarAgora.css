@@ -1,0 +1,20 @@
+.QueroAcessarAgora {
+  height: auto;
+  width: 100%;
+  background: var(--light-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QueroAcessarAgora a {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 14px 40px;
+  background: var(--red);
+}
+.QueroAcessarAgora a:hover {
+  background: var(--blue);
+  color: var(--light-blue);
+  transition: 0.9s;
+}

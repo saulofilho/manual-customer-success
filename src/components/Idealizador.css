@@ -24,7 +24,6 @@
   flex-flow: column;
   justify-content: center;
   align-items: flex-end;
-  padding: 0 50px;
 }
 .ide-photo .red-line {
   display: flex;
@@ -35,10 +34,10 @@
 .ide-text {
   width: 100%;
   height: auto;
-  padding: 0 50px;
+  padding: 0 110px;
 }
 .ide-text h2 {
-  font-size: 26px;
+  font-size: 32px;
   color: #fff;
   font-family: "Decima Mono Bold";
 }
@@ -58,23 +57,22 @@
   font-family: "Decima Mono";
 }
 .lugares-row {
-  display: flex;
-  flex-flow: row;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
   padding: 20px 0 0;
 }
 .lugares-row img {
-  width: 90px;
-  height: auto;
-  margin-right: 20px;
+  width: auto;
+  height: 50px;
 }
 .csweek {
-  width: 50px !important;
+  padding-left: 10px;
 }
 .hiram-photo {
   width: auto;
-  height: 300px;
+  height: 350px;
 }
 .ide-livro {
   width: 100%;
@@ -87,6 +85,10 @@
 @media (max-width: 768px) {
   .idealizador-item {
     flex-flow: column;
+    padding: 0 0 200px;
+  }
+  .idealizador-item-reverse {
+    flex-flow: column-reverse;
   }
   .ide-livro img {
     width: 100%;
@@ -95,12 +97,23 @@
   .ide-photo {
     align-items: center;
   }
-}
-@media (max-width: 576px) {
+  .hiram-photo {
+    width: 100%;
+    height: auto;
+  }
   .ide-photo {
     padding: 0 0;
   }
   .ide-text {
     padding: 0 0;
+  }
+  .ide-text h2 {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .lugares-row img {
+    width: auto;
+    height: 40px;
   }
 }

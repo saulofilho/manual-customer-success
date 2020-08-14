@@ -25,10 +25,11 @@
   height: auto;
 }
 .vai-title-wrapper h2 {
-  font-size: 26px;
+  font-size: 32px;
+  line-height: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
-  padding: 0 0 50px;
+  padding: 20px 0 50px;
 }
 .vai-title-wrapper .red-line:nth-of-type(2) {
   margin: 0 0 0 120px;
@@ -59,5 +60,8 @@
   .vai-texts-wrapper {
     padding: 20px 0 0;
     position: unset;
+  }
+  .VaiAprender .container {
+    padding: 20px 0;
   }
 }

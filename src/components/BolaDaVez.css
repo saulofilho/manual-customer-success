@@ -19,10 +19,11 @@
   align-items: center;
   flex-flow: row;
   background: var(--light-blue);
-  padding: 50px 30px 50px 100px;
+  padding: 70px 30px 70px 100px;
 }
 .boladavez-title-wrapper h2 {
-  font-size: 26px;
+  font-size: 32px;
+  line-height: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
   padding: 10px 0 0;
@@ -31,14 +32,14 @@
   font-size: 12px;
   color: #fff;
   font-family: "Open Sans";
-  padding: 20px 30px 0 250px;
+  padding: 0 30px 0 250px;
   z-index: 2;
   position: relative;
 }
 .blue-box::before {
   content: '';
-  height: 200px;
-  width: 55%;
+  height: 55%;
+  width: 53%;
   background: var(--blue);
   z-index: 1;
   position: absolute;
@@ -62,9 +63,16 @@
     background: var(--blue);
     margin: 30px 0 0;
   }
+  .BolaDaVez {
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .BolaDaVez > .container {
+    padding: 0 0;
+  }
 }
 @media (max-width: 576px) {
-  .BolaDaVez > .container {
-    padding: 20px 20px;
-  }
+
 }

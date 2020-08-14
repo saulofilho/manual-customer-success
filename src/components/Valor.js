@@ -12,44 +12,30 @@ function Valor() {
             <img 
               className="red-line" 
               src={RedLine} 
-              alt=""
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+              alt="linha vermelha"
             />
             <div className="valor-blue-box">
               <div className="valor-blue-box-up">
                 <p className="up-title">
-                  Curso inspirado no livro Customer 
-                  <br/>
-                  Success o Sucesso das 
-                  <br/>
-                  Empresas Focadas em Clientes
+                Curso inspirado no livro Customer Success, 
+                <br/>
+                o Sucesso das Empresas Focadas em Clientes
                 </p>
                 <p className="up-preco">
-                  de R$799,00 por 599,00
+                À vista: de R$ 1.199,00
                   <br/>
-                  Parcelado à vista
-                </p>
-                <p className="up-preco-12">
-                  Em até 12x de R$ 59 ,90
+                  por R$ 799,00 em até 6x.
                 </p>
               </div>
               <img className="vertical-line" src={VerticalLine} alt=""/>
               <div className="valor-blue-box-down">
                 <p className="down-title">
-                  De bônus ganhe:
+                Bônus: ganhe o livro Customer Success, 
+                <br/>
+                o Sucesso das Empresas Focadas em Clientes.
                 </p>
                 <p className="down-subtitle">
-                  Livro Customer Success o Sucesso das Empresas Focadas em Clientes
-                  <br/>
-                  <br/>
-                  Comunidade Customer Success School
-                  <br/>
-                  <br/>
-                  Certificado de Conclusão
+                Acesso à Comunidade Customer Success School.
                 </p>
               </div>
             </div>
@@ -61,13 +47,7 @@ function Valor() {
               do investimento?
             </h2>
             <p className="investimento-title">
-              O valor real deste conteúdo vai bem além do que precificamos. 
-              <br/>
-              Estudar com o Pai do Growth não tem preço e você irá 
-              <br/>
-              descobrir que essa é apenas uma das vantagens em estar em 
-              <br/>
-              nossa comunidade de Growth Masters.
+            O valor real deste conteúdo vai bem além do sugerido. Ele contém mais de 300h de estudo e produção, e mais de 200 referências bibliográficas compiladas, em aulas direcionadas para o seu conhecimento e evolução profissional.
             </p>
             <a className="investimento-btn" href="">
               Quero comprar agora

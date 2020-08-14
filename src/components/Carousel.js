@@ -38,7 +38,7 @@ function Carousel() {
           <h2>
             Da entrada da conta até
             <br />
-            o ciclo final.
+            o ciclo final!
           </h2>
           <p className="texts-title">
             Você irá aprender todas as principais técnicas para
@@ -46,11 +46,11 @@ function Carousel() {
             atuar como um Customer Success
           </p>
           <p className="texts-subtitle">
-            Nossa missão é que você conquiste uma nova vaga, uma promoção ou possa
+            Nossa missão é contribuir de forma decisiva nas suas conquistas: 
             <br />
-            acelerar os seus negócios e ser reconhecido (a) por seus resultados com
+            uma nova vaga, uma promoção ou a aceleração dos seus negócios e o 
             <br />
-            foco no sucesso de seus clientes.
+            reconhecimento pelos seus resultados com foco no sucesso dos clientes.
           </p>
         </div>
         <div className="lines">
@@ -58,21 +58,11 @@ function Carousel() {
             className="blue-line" 
             src={BlueLine} 
             alt="linha azul animada"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="150"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
           />
           <img 
             className="blue-line" 
             src={BlueLine} 
             alt="linha azul animada"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="150"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
           />
         </div>
       </div>
@@ -85,10 +75,7 @@ function Carousel() {
                 A mentalidade de Customer Success
               </p>
               <p className="slider-subtitle">
-                Veja como Customer Success 
-                não é uma profissão mas uma 
-                mentalidade que irá mudar 
-                empresas e mercados
+              Veja como Customer Success não é uma profissão, mas sim uma mentalidade que irá mudar empresas e mercados
               </p>
             </div>
           </div>
@@ -99,8 +86,7 @@ function Carousel() {
               O Profissional de Customer Success
               </p>
               <p className="slider-subtitle">
-              Descubras quais as habilidades técnicas e psicológicas de um 
-              Customer Success e como desenvolver cada uma delas
+              Descubras as habilidades técnicas e psicológicas de um Customer Success e como desenvolver cada uma delas.
               </p>
             </div>
           </div>
@@ -112,8 +98,7 @@ function Carousel() {
               na área
               </p>
               <p className="slider-subtitle">
-              Como atuar no dia a dia, dashboards, o que o mercado procura em 
-              um CS e como atuar em alta performance
+              Como atuar no dia a dia, dashboards, o que o mercado procura em um CS e como atuar em alta performance.
               </p>
             </div>
           </div>
@@ -121,13 +106,10 @@ function Carousel() {
             <div className="container-box">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.69 59.67"><defs></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path class="cls-1" d="M8.39,19.89C5.45,24.15,1,33.43,1,50.72c0,4,7.84,8,24.86,8s24.86-3.94,24.86-8c0-25.86-9.95-33.81-9.95-33.81"/><path class="cls-1" d="M10.94,12.93S3,7,7,3s7,2,10.93,2c6,0,5-4,10-4s5,4,7.95,4,5.25-3.7,8-1c3.38,3.39-3,9-3,9"/><path class="cls-1" d="M39.1,29.11c-3-6,1.67-12.2,1.67-12.2H10.94a2,2,0,0,1,0-4H40.77c12.93,0,12.93,16.9,12.93,16.9"/><circle class="cls-1" cx="39.78" cy="29.83" r="0.99"/><circle class="cls-1" cx="53.7" cy="30.83" r="0.99"/><path class="cls-1" d="M14.92,22.87a14.48,14.48,0,0,1,1-6"/><line class="cls-1" x1="26.85" y1="18.9" x2="26.85" y2="16.91"/><path class="cls-1" d="M31.82,20.89c0-3-1-4-1-4"/><path class="cls-1" d="M25.86,52.7a94.18,94.18,0,0,1-13.92-1"/><path class="cls-1" d="M6,50.72a14.08,14.08,0,0,1-5-3"/><path class="cls-1" d="M45.74,50.72a12.71,12.71,0,0,0,4.84-3"/></g></g></svg>
               <p className="slider-title">
-                A mentalidade de Customer Success
+              Técnicas práticas de resgate de contas (combate ao churn)
               </p>
               <p className="slider-subtitle">
-                Veja como Customer Success 
-                não é uma profissão mas uma 
-                mentalidade que irá mudar 
-                empresas e mercados
+              As principais objeções do mercado com dicas práticas para reduzir as taxas de cancelamento e aumentar a sua performance.
               </p>
             </div>
           </div>
@@ -135,13 +117,10 @@ function Carousel() {
             <div className="container-box">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path class="cls-1" d="M35,33v5a5,5,0,0,1-10,0V33H5V55H55V33H29"/><line class="cls-1" x1="30" y1="37" x2="30" y2="38"/><line class="cls-1" x1="9" y1="43" x2="5" y2="43"/><line class="cls-1" x1="23" y1="49" x2="11" y2="49"/><line class="cls-1" x1="39" y1="47" x2="35" y2="47"/><line class="cls-1" x1="55" y1="43" x2="47" y2="43"/><path class="cls-1" d="M39,7H54a1,1,0,0,1,1,1V29H1V7A4,4,0,0,1,5,3H25V1H35V3H55a4,4,0,0,1,4,4V55a4,4,0,0,1-4,4H5a4,4,0,0,1-4-4V33"/><path class="cls-1" d="M5,25V8A1,1,0,0,1,6,7H21"/><line class="cls-1" x1="21" y1="21" x2="10" y2="21"/><path class="cls-1" d="M23,29c2-3,3-8,3-8h1V17H9v4h1s1,5,3,8"/><path class="cls-1" d="M25,3V7a1.87,1.87,0,0,0,2,2h6a1.87,1.87,0,0,0,2-2V3"/><polyline class="cls-1" points="51 29 51 25 45 25"/><polyline class="cls-1" points="51 21 41 21 41 25 39 25 39 29"/><polyline class="cls-1" points="48 17.73 51 16 49 12.54 40.34 17.54 42.34 21"/><circle class="cls-1" cx="35" cy="21" r="2"/><circle class="cls-1" cx="31" cy="15" r="2"/><circle class="cls-1" cx="13" cy="15" r="2"/><path class="cls-1" d="M35,29a2,2,0,0,0-4,0"/><path class="cls-1" d="M23,17a2,2,0,0,0-4,0"/><line class="cls-1" x1="30" y1="7" x2="30" y2="9"/></g></g></svg>
               <p className="slider-title">
-                A mentalidade de Customer Success
+              Métricas em Customer Success
               </p>
               <p className="slider-subtitle">
-                Veja como Customer Success 
-                não é uma profissão mas uma 
-                mentalidade que irá mudar 
-                empresas e mercados
+              A principais métricas para medir a performance na área até as ações individuais. explicadas de forma simples e prática.
               </p>
             </div>
           </div>

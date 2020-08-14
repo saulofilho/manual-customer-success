@@ -1,6 +1,6 @@
 import React from 'react';
 import './QuemConfia.css';
-import Ok from '../assets/vetores/ok.png';
+import Ok from '../assets/vetores/like.png';
 import BlueLine from '../assets/vetores/linha-blue.png';
 import HorizontalLine from '../assets/vetores/line-horizontal.png';
 
@@ -9,9 +9,11 @@ function QuemConfia() {
     <section className="QuemConfia">
       <div className="container">
         <h2>
-          Veja quem confia
+          Veja quem já deu um upgrade 
           <br/>
-          na gente :)
+          na sua carreira com o curso 
+          <br/>
+          de CS de Hiram Damin
         </h2>
         <div className="quem-confia-wrapper">
           <div className="red-box">
@@ -36,7 +38,6 @@ function QuemConfia() {
               minim veniam, quis nostrud exerci tation 
             </p>
           </div>
-          <img className="linha-red-box" src={HorizontalLine} alt="linha horizontal"/>
           <iframe 
             title="youtube"
             width="560" 
@@ -51,12 +52,7 @@ function QuemConfia() {
         <img 
           className="blue-line display-none-700" 
           src={BlueLine} 
-          alt=""
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
+          alt="linha azul"
         />
       </div>
     </section>

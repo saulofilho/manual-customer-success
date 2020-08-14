@@ -33,11 +33,6 @@ function Vagas() {
             src={BlueLine} 
             alt="" 
             className="blue-line"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="150"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
           />
         </div>
         <div className="vagas-text-wrapper">
@@ -45,11 +40,6 @@ function Vagas() {
             src={BlueLine} 
             alt="" 
             className="blue-line"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="150"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
           />
           <h2>
             Mais de 500 vagas* 
@@ -61,7 +51,7 @@ function Vagas() {
             em todo o Brasil. 
           </h2>
           <p className="vagas-salarios">
-            Com salários chegando até R$15.000,00**
+            Com salários chegando até R$15.000,00**!
           </p>
           <p className="vagas-fontes">
             Fontes: *LinkedIn e **Catho

@@ -1,4 +1,5 @@
 import React from 'react';
+import Logos from './components/Logos'
 import Hero from './components/Hero'
 import Futuro from './components/Futuro'
 import Vagas from './components/Vagas'
@@ -7,6 +8,7 @@ import Acessar from './components/Acessar'
 import Idealizador from './components/Idealizador'
 import Carousel from './components/Carousel'
 import VaiAprender from './components/VaiAprender'
+import QueroAcessarAgora from './components/QueroAcessarAgora'
 import ParaMim from './components/ParaMim'
 import QuemConfia from './components/QuemConfia'
 import Certificado from './components/Certificado'
@@ -16,6 +18,7 @@ import './App.css';
 function App() {
   return (
     <>
+      <Logos />
       <Hero />
       <Futuro />
       <Vagas />
@@ -24,6 +27,7 @@ function App() {
       <Idealizador />
       <Carousel />
       <VaiAprender />
+      <QueroAcessarAgora />
       <ParaMim />
       <QuemConfia />
       <Certificado />

@@ -11,7 +11,7 @@ function Acessar() {
             <p>
               O <strong>número de vagas para Customer Success</strong> é cada vez maior e as 
               oportunidades de crescimento profissional também. Isso acontece 
-              porque cada vez mais as empresas estão <strong>focadas em clientes</strong> e crescer com eles.
+              porque, cada vez mais, as empresas estão <strong>focadas em clientes</strong> e crescer com eles.
             </p>
           </div>
           <div className="acessar-wrapper-btn">
@@ -22,11 +22,6 @@ function Acessar() {
               className="white-line" 
               src={WhiteLine} 
               alt="linha branca animada"
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="150"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
             />
           </div>
         </div>

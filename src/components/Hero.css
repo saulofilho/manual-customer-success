@@ -3,7 +3,7 @@
   height: 100%;
 }
 .hero-wrapper {
-  height: 800px;
+  height: 720px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,9 +12,9 @@
 }
 .hero-wrapper::before {
   content: "";
-  background: var(--dark-blue);
+  background: var(--blue);
   position: absolute;
-  height: 800px;
+  height: 720px;
   width: 100%;
   top: 0;
   left: 0;
@@ -25,9 +25,10 @@
 }
 .hero-text h1 {
   font-size: 50px;
+  line-height: 50px;
   color: #fff;
   font-family: "Decima Mono Bold";
-  padding: 150px 0 50px;
+  padding: 100px 0 20px;
 }
 .hero-text p {
   font-size: 20px;
@@ -36,12 +37,11 @@
   padding: 0 0 30px;
 }
 .hero-text a {
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   font-family: "Decima Mono";
-  padding: 10px 20px;
+  padding: 14px 40px;
   background: var(--red);
-  border-radius: 3px;
 }
 .hero-text a:hover {
   background: var(--light-blue);
@@ -59,11 +59,10 @@
 .hero-grid-item {
   background: var(--red);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: column;
-  padding: 20px 30px;
-  border-radius: 3px;
+  padding: 40px 30px 20px 30px;
   -webkit-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
   -moz-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
   box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
@@ -81,7 +80,9 @@
   font-size: 12px;
   padding: 20px 20px 0;
 }
-
+.hero-grid-item span {
+  text-decoration: line-through;
+}
 @media (max-width: 992px) {
   .hero-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -103,7 +104,7 @@
     height: 950px;
   }
   .hero-grid-item {
-    height: 100px;
+    height: auto;
   }
   .hero-grid-item p {
     padding: 10px 20px 0;

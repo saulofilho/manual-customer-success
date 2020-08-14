@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
 }
-.Vagas .blue-line {
+.vagas-card-wrapper .blue-line {
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -62,7 +62,7 @@
   padding: 0 80px;
 }
 .vagas-text-wrapper h2 {
-  font-size: 26px;
+  font-size: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
   padding: 30px 0 0;
@@ -73,7 +73,7 @@
   font-family: "Decima Mono Bold";
 }
 .vagas-fontes {
-  font-size: 12px;
+  font-size: 18px;
   color: #000;
   font-family: "Decima Mono Bold Italic";
   padding: 10px 0 0;
@@ -81,16 +81,11 @@
 .btn-vagas {
   font-size: 14px;
   color: #fff;
-  font-family: "Decima Mono";
+  font-family: "Open Sans";
   padding: 10px 20px;
   background: var(--red);
-  border-radius: 3px;
   margin: 10px 0;
-}
-.btn-vagas:hover {
-  background: var(--blue);
-  color: var(--light-blue);
-  transition: 0.9s;
+  cursor: initial;
 }
 @media (max-width: 768px) {
   .vagas-wrapper {
@@ -101,5 +96,10 @@
   }
   .vagas-text-wrapper {
     padding: 0 0;
+    margin-top: 50px;
+  }
+  .vagas-card-wrapper .blue-line {
+    position: relative;
+    top: -50px;
   }
 }

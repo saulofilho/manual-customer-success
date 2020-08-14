@@ -36,11 +36,11 @@ function Hero() {
             Customer Success
           </h1>
           <p>
-            O <strong>curso inspirado no livro</strong> 
+            O <strong>curso online inspirado no livro</strong>
             <br/>
-            Customer Success o Sucesso 
+            Customer Success, o Sucesso 
             <br/>
-            das Empresas Focadas em Clientes
+            das Empresas Focadas em Cliente
           </p>
           <a href="">
             Quero acessar agora
@@ -63,16 +63,14 @@ function Hero() {
             <div className="hero-grid-item">
               <img src={Chapeu} alt="vetor chapeu"/>
               <p>
-                Certificado
+              Certificado do Centro Europeu
               </p>
             </div>
           </button>
           <div className="hero-grid-item">
             <img src={Calendario} alt="vetor calendario"/>
             <p>
-              Material de
-              apoio para
-              projetos
+            Bônus: Material para Projetos
             </p>
           </div>
           <button
@@ -83,8 +81,7 @@ function Hero() {
             <div className="hero-grid-item">
               <img src={Livro} alt="vetor livro"/>
               <p>
-                Livro do
-                Autor
+              Bônus: Livro do Autor na sua Casa
               </p>
             </div>
           </button>
@@ -96,9 +93,7 @@ function Hero() {
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
-                  De R$ 1.299,00
-                  por apenas 899
-                  em até 6x
+                De <span>R$ 1.199,00</span> por apenas 799,00  em até 6x
                 </p>
             </div>
           </button>
