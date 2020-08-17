@@ -7,7 +7,7 @@
   line-height: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
-  padding: 10px 0;
+  padding: 0 0 10px;
 }
 .Carousel .texts .texts-title {
   font-size: 12px;
@@ -21,12 +21,17 @@
   font-family: "Open Sans";
   font-weight: 600;
 }
+.container-carousel {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 20px 70px 0;
+}
 .container-box {
   background: #fff;
   cursor: pointer;
-  padding: 60px 20px 0;
+  padding: 60px 30px 0;
   width: auto;
-  height: 330px;
+  height: 340px;
 }
 .container-box svg {
   width: auto;
@@ -40,7 +45,16 @@
   color: #fff;
   font-family: "Open Sans";
   font-weight: 600;
-  padding: 10px 100px 30px 0;
+  padding: 10px 80px 20px 0;
+  line-height: 24px;
+}
+.slider-title {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 10px 100px 20px 0;
+  line-height: 24px;
 }
 .slick-current .slider-subtitle {
   font-size: 12px;
@@ -48,13 +62,7 @@
   font-family: "Open Sans";
   font-weight: 400;
   padding: 10px 100px 0 0;
-}
-.slider-title {
-  font-size: 14px;
-  color: #000;
-  font-family: "Open Sans";
-  font-weight: 600;
-  padding: 10px 100px 30px 0;
+  line-height: 20px;
 }
 .slider-subtitle {
   font-size: 12px;
@@ -62,12 +70,16 @@
   font-family: "Open Sans";
   font-weight: 400;
   padding: 10px 100px 0 0;
+  line-height: 20px;
 }
 .car-texts-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-flow: row;
+}
+.car-texts-wrapper.container {
+  padding: 0 70px 20px;
 }
 .texts {
   width: 100%;
@@ -150,5 +162,26 @@
   }
   .lines img:first-child {
     margin: 0 200px 50px 0;
+  }
+  .container-box {
+    height: auto;
+  }
+  .slick-current .slider-subtitle {
+    padding: 10px 0 10px 0;
+  }
+  .slider-subtitle {
+    padding: 10px 0 10px 0;
+  }
+  .slick-current .slider-title {
+    padding: 10px 0 20px 0;
+  }
+  .slider-title {
+    padding: 10px 0 20px 0;
+  }
+  .container-carousel {
+    padding: 20px 20px 0;
+  }
+  .car-texts-wrapper.container {
+    padding: 0 20px 20px;
   }
 }

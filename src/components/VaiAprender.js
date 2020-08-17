@@ -1,7 +1,6 @@
 import React from 'react';
 import './VaiAprender.css';
 import RedLine from '../assets/vetores/linha-red.png';
-import BlueLine from '../assets/vetores/linha-blue.png';
 
 function VaiAprender() {
   return (
@@ -9,11 +8,6 @@ function VaiAprender() {
       <div className="container">
         <div className="vaiaprender-wrapper">
           <div className="vai-title-wrapper">
-            <img 
-              className="red-line" 
-              src={RedLine} 
-              alt="linha vermelha"
-            />
             <h2>
               O que vai 
               <br/>
@@ -21,6 +15,11 @@ function VaiAprender() {
               <br/>
               também
             </h2>
+            <img 
+              className="red-line" 
+              src={RedLine} 
+              alt="linha vermelha"
+            />
           </div>
           <div className="vai-texts-wrapper">
             <ol>

@@ -1,5 +1,5 @@
 .Vagas {
-  padding: 50px 0;
+  padding: 50px 0 0;
   width: 100%;
   height: auto;
 }
@@ -17,6 +17,9 @@
   align-items: flex-start;
   width: 100%;
   height: auto;
+}
+.vagas-wrapper.container {
+  padding: 0 70px;
 }
 .vagas-card-wrapper {
   width: 100%;
@@ -44,6 +47,7 @@
   font-family: "Open Sans";
   font-weight: bolder;
   padding: 0 0 10px;
+  line-height: 20px;
 }
 .vagas-card-about {
   font-size: 12px;
@@ -51,6 +55,7 @@
   font-family: "Open Sans";
   font-weight: 600;
   padding: 0 0 10px;
+  line-height: 20px;
 }
 .vagas-text-wrapper {
   display: flex;
@@ -79,13 +84,19 @@
   padding: 10px 0 0;
 }
 .btn-vagas {
-  font-size: 14px;
+  font-size: 10px;
   color: #fff;
   font-family: "Open Sans";
   padding: 10px 20px;
   background: var(--red);
   margin: 10px 0;
   cursor: initial;
+  border-radius: 3px;
+}
+@media (max-width: 992px) {
+  .Vagas {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 768px) {
   .vagas-wrapper {
@@ -95,11 +106,14 @@
     margin: 0 0 50px;
   }
   .vagas-text-wrapper {
-    padding: 0 0;
+    padding: 0 0 50px;
     margin-top: 50px;
   }
   .vagas-card-wrapper .blue-line {
     position: relative;
     top: -50px;
+  }
+  .vagas-wrapper.container {
+    padding: 0 20px;
   }
 }

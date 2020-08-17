@@ -7,7 +7,6 @@ import Livro from '../assets/images/livro-red.png';
 import Hiram from '../assets/images/img-hiram-damin.png';
 import Lisboa from '../assets/images/logo-lisboa.png';
 import RedLine from '../assets/vetores/linha-red.png';
-import WhiteLine from '../assets/vetores/linha-white.png';
 
 function Idealizador() {
   return (

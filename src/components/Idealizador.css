@@ -1,6 +1,6 @@
 .Idealizador {
   background: var(--blue);
-  padding: 70px 0 0;
+  padding: 50px 0;
 }
 .idealizador-wrapper {
   display: flex;
@@ -15,7 +15,6 @@
   align-items: center;
   width: 100%;
   height: auto;
-  padding: 0 0 80px;
 }
 .ide-photo {
   width: 100%;
@@ -43,13 +42,14 @@
 }
 .ide-text .red-line {
   position: relative;
-  bottom: -100px;
+  bottom: -80px;
 }
 .autor-livro {
   font-size: 12px;
   color: #fff;
   font-family: "Open Sans";
   padding: 20px 0;
+  line-height: 20px;
 }
 .autor-palestra {
   font-size: 12px;
@@ -82,10 +82,18 @@
   width: auto;
   height: 400px;
 }
+.idealizador-item-reverse {
+  padding: 100px 0 0;
+}
+@media (max-width: 1000px) {
+  .ide-text {
+    padding: 0 40px;
+  }
+}
 @media (max-width: 768px) {
   .idealizador-item {
     flex-flow: column;
-    padding: 0 0 200px;
+    padding: 0 0 150px;
   }
   .idealizador-item-reverse {
     flex-flow: column-reverse;

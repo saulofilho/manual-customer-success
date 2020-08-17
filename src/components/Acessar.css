@@ -1,9 +1,10 @@
 .Acessar {
   width: 100%;
   height: auto;
+  padding: 50px 0 0;
 }
 .Acessar > .container {
-  padding: 20px 70px 50px;
+  padding: 0 70px 50px;
 }
 .acessar-wrapper {
   background: var(--red);
@@ -12,6 +13,7 @@
   align-items: center;
   flex-flow: row;
   height: auto;
+  letter-spacing: -0.9px;
 }
 .acessar-wrapper-text {
   width: 100%;
@@ -56,9 +58,11 @@
     padding: 50px 0;
   }
   .Acessar > .container {
-    padding: 20px 0 40px;
+    padding: 0 0 50px;
   }
 }
 @media (max-width: 576px) {
-
+  .Acessar > .container {
+    padding: 0 20px 50px;
+  }
 }

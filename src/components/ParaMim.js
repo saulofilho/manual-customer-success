@@ -36,13 +36,15 @@ function ParaMim() {
             </p>
           </div>
           <div className="para-texts-wrapper">
-            <p>
-              Estes são os 4 principais tipos 
-              <br/>
-              de alunos em nossas turmas:
-            </p>
             <div className="numbers-texts">
               <div className="texts">
+                <div className="num-txt-wrap">
+                  <p className="para-texts-title">
+                    Estes são os 4 principais tipos
+                    <br />
+                    de alunos em nossas turmas:
+                  </p>
+                </div>
                 <div className="num-txt-wrap">
                   <p className="number">/01</p>
                   <p>

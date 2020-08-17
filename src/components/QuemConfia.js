@@ -2,7 +2,6 @@ import React from 'react';
 import './QuemConfia.css';
 import Ok from '../assets/vetores/like.png';
 import BlueLine from '../assets/vetores/linha-blue.png';
-import HorizontalLine from '../assets/vetores/line-horizontal.png';
 
 function QuemConfia() {
   return (
@@ -42,10 +41,10 @@ function QuemConfia() {
             title="youtube"
             width="560" 
             height="315" 
-            src="https://www.youtube.com/embed/7qUM3340slk?controls=0" 
+            src="https://www.youtube.com/embed/ePlpcjzbZl4" 
             frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullscreen
+            allowFullScreen
           >
           </iframe>
         </div>

@@ -2,6 +2,10 @@
   width: 100%;
   height: auto;
   background: var(--light-blue);
+  padding: 50px 0;
+}
+.QuemConfia > .container {
+  padding: 0 70px;
 }
 .QuemConfia .blue-line {
   display: flex;
@@ -15,7 +19,7 @@
   line-height: 32px;
   color: var(--blue);
   font-family: "Decima Mono Bold";
-  padding: 0 0 50px;
+  padding: 0 0 30px;
 }
 .autor {
   font-size: 14px;
@@ -29,11 +33,13 @@
   font-family: "Open Sans";
   font-weight: bolder;
   padding: 0 0 20px;
+  line-height: 20px;
 }
 .autor-about {
   font-size: 12px;
   color: #fff;
   font-family: "Open Sans";
+  line-height: 20px;
 }
 .quem-confia-wrapper {
   display: flex;
@@ -57,5 +63,10 @@
   }
   .linha-red-box {
     display: none;
+  }
+}
+@media (max-width: 560px) {
+  .QuemConfia > .container {
+    padding: 0 20px;
   }
 }

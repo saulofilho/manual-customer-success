@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+.QueroAcessarAgora > .container {
+  padding: 50px 70px;
+}
 .QueroAcessarAgora a {
   font-size: 16px;
   color: #fff;
@@ -17,4 +20,9 @@
   background: var(--blue);
   color: var(--light-blue);
   transition: 0.9s;
+}
+@media (max-width: 560px) {
+  .QueroAcessarAgora > .container {
+    padding: 50px 20px;
+  }
 }

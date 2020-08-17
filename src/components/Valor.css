@@ -4,6 +4,9 @@
   height: auto;
   padding: 50px 0;
 }
+.Valor > .container {
+  padding: 0 70px;
+}
 .Valor .red-line {
   position: relative;
   left: 20px;
@@ -71,6 +74,7 @@
   color: var(--gray);
   font-family: "Open Sans";
   padding: 0 0 50px;
+  line-height: 24px;
 }
 .investimento-btn {
   font-size: 14px;
@@ -94,7 +98,7 @@
 }
 .investimento-wrapper {
   background: #fff;
-  padding: 60px 40px 60px 100px;
+  padding: 60px;
   width: 100%;
   height: auto;
 }
@@ -133,5 +137,11 @@
   }
 }
 @media (max-width: 568px) {
-
+  .valor-blue-box {
+    width: 330px;
+    margin: 30px auto;
+  }
+  .Valor .red-line {
+    display: none;
+  }
 }

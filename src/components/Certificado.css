@@ -2,8 +2,11 @@
   background: var(--blue);
   width: 100%;
   height: auto;
-  padding: 60px 0;
+  padding: 50px 0;
   position: relative;
+}
+.Certificado > .container {
+  padding: 0 70px;
 }
 .certificado-wrapper {
   display: flex;
@@ -67,6 +70,7 @@
   font-size: 14px;
   color: #fff;
   font-family: "Open Sans";
+  line-height: 24px;
 }
 @media (max-width: 768px) {
   .certificado-wrapper{
@@ -84,5 +88,10 @@
   }
   .certificado-text h2 {
     padding: 50px 0 0;
+  }
+}
+@media (max-width: 560px) {
+  .Certificado > .container {
+    padding: 0 20px;
   }
 }
