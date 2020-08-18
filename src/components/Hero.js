@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import ImgHeader from '../assets/images/img-header.png';
+import LogosPatrocinadores from '../assets/images/logos-hero.png';
 import Relogio from '../assets/vetores/relogio.png';
 import Chapeu from '../assets/vetores/chapeu.png';
 import Calendario from '../assets/vetores/calendario.png';
@@ -30,17 +31,20 @@ function Hero() {
         }}  
       >
         <div className="container hero-text">
+          <img src={LogosPatrocinadores} alt="logos dos patrocinadores"/>
           <h1>
             Manual do 
             <br/>
             Customer Success
+            <br/>
+            por <span>Hiram Damin</span>
           </h1>
           <p>
             O <strong>curso online inspirado no livro</strong>
             <br/>
             Customer Success, o Sucesso 
             <br/>
-            das Empresas Focadas em Cliente
+            das Empresas Focadas em Clientes
           </p>
           <a href="">
             Quero acessar agora

@@ -57,6 +57,10 @@
   padding: 0 0 10px;
   line-height: 20px;
 }
+.vagas-card-about.catho {
+  font-style: italic;
+  color: #000;
+}
 .vagas-text-wrapper {
   display: flex;
   flex-flow: column;
@@ -73,7 +77,7 @@
   padding: 30px 0 0;
 }
 .vagas-salarios {
-  font-size: 26px;
+  font-size: 32px;
   color: #000;
   font-family: "Decima Mono Bold";
 }

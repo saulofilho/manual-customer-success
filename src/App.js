@@ -1,5 +1,4 @@
 import React from 'react';
-import Logos from './components/Logos'
 import Hero from './components/Hero'
 import Futuro from './components/Futuro'
 import Vagas from './components/Vagas'
@@ -18,7 +17,6 @@ import './App.css';
 function App() {
   return (
     <>
-      <Logos />
       <Hero />
       <Futuro />
       <Vagas />

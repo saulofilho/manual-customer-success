@@ -18,35 +18,32 @@ function QuemConfia() {
           <div className="red-box">
             <img src={Ok} alt="vetor like"/>
             <p className="autor">
-              <strong>Marcela</strong>
+              EDUARDO PIMENTEL
               <br/>
-              Assistente de Marketing
-            </p>
-            <p className="autor-subtitle">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing 
-              <br/>
-              elit, sed diam nonummy nibh euismod tincidunt ut
+              Gerente de Customer Success - Agoge
             </p>
             <p className="autor-about">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-              <br/>
-              sed diam nonummy nibh euismod tincidunt ut laoreet 
-              <br/>
-              dolore magna aliquam erat volutpat. Ut wisi enim ad 
-              <br/>
-              minim veniam, quis nostrud exerci tation 
+              "O Manual do Customer Success tem me ajuda muito a melhorar os 
+              processos da minha empresa. O Hiram ao longo do curso traz muitas 
+              dicas que tornam os processos muito mais leve na aplicação do 
+              Sucesso do Cliente dentro da empresa. O  feedback eu vejo com os 
+              clientes e também com os funcionários que acham muito melhor 
+              trabalhar em uma empresa que tem processo, ferramentas e metas 
+              estabelecidas."
             </p>
           </div>
-          <iframe 
-            title="youtube"
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/ePlpcjzbZl4" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen
-          >
-          </iframe>
+          <div className="youtube-wrapper">
+            <iframe 
+              title="youtube"
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/ePlpcjzbZl4" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            >
+            </iframe>
+          </div>
         </div>
         <img 
           className="blue-line display-none-700" 

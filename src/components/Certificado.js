@@ -2,7 +2,7 @@ import React from 'react';
 import './Certificado.css';
 import RedLine from '../assets/vetores/linha-red.png';
 import WhiteLine from '../assets/vetores/linha-white.png';
-import Book from '../assets/images/img-hiram-damin.png';
+import Book from '../assets/images/certificado.png';
 
 function Certificado() {
   return (

@@ -23,15 +23,42 @@ function VaiAprender() {
           </div>
           <div className="vai-texts-wrapper">
             <ol>
-              <li><span>01 -</span> <strong>Intro:</strong> Atendimento e suas experiências</li>
-              <li><span>02 -</span> <strong>Customer Success não é um cargo.</strong> É uma mudança de mentalidade</li>
-              <li><span>03 -</span> <strong>Jornada do cliente:</strong> o caminho do CS</li>
-              <li><span>04 -</span> <strong>Suporte:</strong> o marco zero do Customer Success</li>
-              <li><span>05 -</span> <strong>Onboarding</strong> ou <strong>Implementação:</strong> os primeiros passos do cliente</li>
-              <li><span>06 -</span> <strong>Ongoing</strong> ou <strong>Adoção:</strong> o cliente rumo ao sucesso</li>
-              <li><span>07 -</span> Churn: como evitar, medir e controlar a evasão de clientes?</li>
-              <li><span>08 -</span> <strong>Ferramentas:</strong> dicas  para o seu dia a dia</li>
-              <li><span>09 -</span> <strong>Métricas de Sucesso</strong> em Customer Success</li>
+              <li>
+                <div className="vai-number"><p>01 -</p></div>
+                <div className="vai-text"><strong>Intro:</strong> Atendimento e suas experiências</div>
+              </li>
+              <li>
+                <div className="vai-number"><p>02 -</p></div> 
+                <div className="vai-text"><strong>Customer Success não é um cargo.</strong> <br/> É uma mudança de mentalidade</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>03 -</p></div> 
+                <div className="vai-text"><strong>Jornada do cliente:</strong> o caminho do CS</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>04 -</p></div> 
+                <div className="vai-text"><strong>Suporte:</strong> o marco zero do Customer Success</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>05 -</p></div> 
+                <div className="vai-text"><strong>Onboarding</strong> ou <strong>Implementação:</strong> <br/> os primeiros passos do cliente</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>06 -</p></div> 
+                <div className="vai-text"><strong>Ongoing</strong> ou <strong>Adoção:</strong> o cliente rumo ao sucesso</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>07 -</p></div> 
+                <div className="vai-text"><strong>Churn</strong> como evitar, <br/> medir e controlar a evasão de clientes?</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>08 -</p></div> 
+                <div className="vai-text"><strong>Ferramentas:</strong> dicas  para o seu dia a dia</div>
+                </li>
+              <li>
+                <div className="vai-number"><p>09 -</p></div> 
+                <div className="vai-text"><strong>Métricas de Sucesso</strong> em Customer Success</div>
+                </li>
             </ol>
           </div>
         </div>

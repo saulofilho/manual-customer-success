@@ -40,6 +40,12 @@
   padding: 20px 0;
   text-align: center;
 }
+.up-preco .valor-riscado {
+  text-decoration: line-through;
+}
+.up-preco .valor-destaque {
+  font-size: 32px;
+}
 .up-preco-12 {
   font-size: 12px;
   color: #fff;
@@ -138,7 +144,7 @@
 }
 @media (max-width: 568px) {
   .valor-blue-box {
-    width: 330px;
+    width: 100%;
     margin: 30px auto;
   }
   .Valor .red-line {

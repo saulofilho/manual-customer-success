@@ -35,8 +35,8 @@
 }
 .para-title-wrapper .red-line:nth-of-type(2) {
   position: relative;
-  top: -40px;
-  left: 40px;
+  top: -52px;
+  left: 0;
 }
 .para-title-wrapper {
   width: 100%;
@@ -66,7 +66,7 @@
 .para-texts-wrapper .red-line {
   position: relative;
   z-index: 9;
-  top: 57px;
+  top: 56px;
   left: -35px;
 }
 .num-txt-wrap {
@@ -83,7 +83,7 @@
   position: relative;
   z-index: 9;
 }
-.num-txt-wrap p {
+.num-txt-wrap .text {
   font-size: 14px;
   color: #fff;
   font-family: "Open Sans";

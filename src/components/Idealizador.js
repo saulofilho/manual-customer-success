@@ -1,11 +1,11 @@
 import React from 'react';
 import './Idealizador.css';
 import CSWeek from '../assets/images/logo-csweek.png';
-import RD from '../assets/images/logo-rdsummit.png';
+import RD from '../assets/images/rdsummit.png';
 import TDC from '../assets/images/logo-tdc.png';
 import Livro from '../assets/images/livro-red.png';
 import Hiram from '../assets/images/img-hiram-damin.png';
-import Lisboa from '../assets/images/logo-lisboa.png';
+import Lisboa from '../assets/images/digitalks.png';
 import RedLine from '../assets/vetores/linha-red.png';
 
 function Idealizador() {
@@ -34,7 +34,7 @@ function Idealizador() {
                 onde já atendeu mais de 250 empresas no Brasil e no exterior. 
               </p>
               <p className="autor-palestra">
-                Lugares que já palestrou:
+                Eventos que já palestrou:
               </p>
               <div className="lugares-row">
                 <img src={RD} alt="logo patrocinador"/>

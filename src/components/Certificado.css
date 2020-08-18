@@ -47,7 +47,10 @@
 .book {
   width: auto;
   height: 350px;
+  position: relative;
   z-index: 9;
+  left: -50px;
+  top: 40px;
 }
 .certificado-img::before {
   content: '';

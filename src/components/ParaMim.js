@@ -39,7 +39,7 @@ function ParaMim() {
             <div className="numbers-texts">
               <div className="texts">
                 <div className="num-txt-wrap">
-                  <p className="para-texts-title">
+                  <p className="text para-texts-title">
                     Estes são os 4 principais tipos
                     <br />
                     de alunos em nossas turmas:
@@ -47,27 +47,27 @@ function ParaMim() {
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/01</p>
-                  <p>
+                  <p className="text">
                     <strong>Startups</strong> que buscam implementar a metodologia de 
                   Sucesso do Cliente.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/02</p>
-                  <p>
-                    <strong>Consultores</strong> e <strong>agências</strong> com foco em Customer Centric
+                  <p className="text">
+                    <strong>Consultores</strong> e <strong>agências</strong> com foco em Customer Centric.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/03</p>
-                  <p>
+                  <p className="text">
                     Profissionais de <strong>Customer Success</strong> que querem aprimorar suas técnicas ou querem entrar no mercado de trabalho.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/04</p>
-                  <p className="padding-zero">
-                    Profissionais em geral que querem <strong>melhorar seu atendimento</strong> com o sucesso do cliente
+                  <p className="text padding-zero">
+                    Profissionais em geral que querem <strong>melhorar seu atendimento</strong> com o sucesso do cliente.
                   </p>
                 </div>
               </div>

@@ -9,9 +9,9 @@ function Acessar() {
         <div className="acessar-wrapper">
           <div className="acessar-wrapper-text">
             <p>
-              O <strong>número de vagas para Customer Success</strong> é cada vez maior e as 
+              O número de vagas para Customer Success é cada vez maior e as 
               oportunidades de crescimento profissional também. Isso acontece 
-              porque, cada vez mais, as empresas estão <strong>focadas em clientes</strong> e crescer com eles.
+              porque, cada vez mais, as empresas estão focadas em clientes e crescer com eles.
             </p>
           </div>
           <div className="acessar-wrapper-btn">

@@ -48,11 +48,18 @@
   color: #000;
   font-family: "Open Sans";
   line-height: 26px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-.vai-texts-wrapper li span {
+.vai-texts-wrapper li p {
   font-size: 14px;
   color: var(--red);
   font-family: "Decima Mono Bold";
+}
+.vai-number {
+  padding: 0 10px 0 0;
 }
 @media (max-width: 768px) {
   .vaiaprender-wrapper {

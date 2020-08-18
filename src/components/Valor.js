@@ -22,9 +22,12 @@ function Valor() {
                 o Sucesso das Empresas Focadas em Clientes
                 </p>
                 <p className="up-preco">
-                À vista: de R$ 1.199,00
+                  À vista: <span className="valor-riscado">de R$ 1.199,00</span>
                   <br/>
                   por R$ 799,00 em até 6x.
+                </p>
+                <p className="up-preco">
+                  em até <span className="valor-destaque">6x R$ 133,16</span>
                 </p>
               </div>
               <img className="vertical-line" src={VerticalLine} alt=""/>
