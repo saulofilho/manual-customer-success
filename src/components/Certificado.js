@@ -24,7 +24,7 @@ function Certificado() {
           </div>
           <div className="certificado-text">
             <img 
-              className="white-line" 
+              className="white-line display-none-700" 
               src={WhiteLine} 
               alt="linha branca"
             />

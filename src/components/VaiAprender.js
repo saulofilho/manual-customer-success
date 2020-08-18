@@ -22,7 +22,7 @@ function VaiAprender() {
             />
           </div>
           <div className="vai-texts-wrapper">
-            <ol>
+            <ul>
               <li>
                 <div className="vai-number"><p>01 -</p></div>
                 <div className="vai-text"><strong>Intro:</strong> Atendimento e suas experiências</div>
@@ -49,7 +49,9 @@ function VaiAprender() {
                 </li>
               <li>
                 <div className="vai-number"><p>07 -</p></div> 
-                <div className="vai-text"><strong>Churn</strong> como evitar, <br/> medir e controlar a evasão de clientes?</div>
+                <div className="vai-text"><strong>Churn</strong> como evitar, medir e controlar 
+                <br/> 
+                a evasão de clientes?</div>
                 </li>
               <li>
                 <div className="vai-number"><p>08 -</p></div> 
@@ -59,7 +61,7 @@ function VaiAprender() {
                 <div className="vai-number"><p>09 -</p></div> 
                 <div className="vai-text"><strong>Métricas de Sucesso</strong> em Customer Success</div>
                 </li>
-            </ol>
+            </ul>
           </div>
         </div>
       </div>

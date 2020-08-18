@@ -72,11 +72,6 @@ function ParaMim() {
                 </div>
               </div>
             </div>
-            <img 
-              className="red-line" 
-              src={RedLine} 
-              alt="linha vermelha"
-            />
           </div>
         </div>
       </div>

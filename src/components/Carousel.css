@@ -10,10 +10,11 @@
   padding: 0 0 10px;
 }
 .Carousel .texts .texts-title {
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
-  font-family: "Decima Mono Bold";
-  padding: 10px 0 10px;
+  font-family: "Open Sans";
+  padding: 10px 0 20px;
+  font-weight: bolder;
 }
 .Carousel .texts .texts-subtitle {
   font-size: 14px;

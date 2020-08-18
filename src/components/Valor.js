@@ -26,7 +26,7 @@ function Valor() {
                   <br/>
                   por R$ 799,00 em até 6x.
                 </p>
-                <p className="up-preco">
+                <p className="up-preco em-ate">
                   em até <span className="valor-destaque">6x R$ 133,16</span>
                 </p>
               </div>

@@ -37,18 +37,20 @@ function Hero() {
             <br/>
             Customer Success
             <br/>
-            por <span>Hiram Damin</span>
+            por Hiram Damin
           </h1>
           <p>
-            O <strong>curso online inspirado no livro</strong>
+            O curso online inspirado no livro
             <br/>
             Customer Success, o Sucesso 
             <br/>
             das Empresas Focadas em Clientes
           </p>
-          <a href="">
-            Quero acessar agora
-          </a>
+          <div className="btn-cta">
+            <a href="">
+              Quero acessar agora
+            </a>
+          </div>
         </div>
         <div className="container hero-grid">
           <div className="hero-grid-item">
