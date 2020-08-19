@@ -22,9 +22,9 @@ function Valor() {
                 o Sucesso das Empresas Focadas em Clientes
                 </p>
                 <p className="up-preco">
-                  À vista: <span className="valor-riscado">de R$ 1.199,00</span>
+                  À vista: de <span className="valor-riscado">R$ 1.199,00</span>
                   <br/>
-                  por R$ 799,00 em até 6x.
+                  por R$ 799,00
                 </p>
                 <p className="up-preco em-ate">
                   em até <span className="valor-destaque">6x R$ 133,16</span>
@@ -52,7 +52,7 @@ function Valor() {
             <p className="investimento-title">
             O valor real deste conteúdo vai bem além do sugerido. Ele contém mais de 300h de estudo e produção, e mais de 200 referências bibliográficas compiladas, em aulas direcionadas para o seu conhecimento e evolução profissional.
             </p>
-            <a className="investimento-btn" href="">
+            <a className="investimento-btn" href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
               Quero comprar agora
             </a>
             <p className="investimento-subtitle">

@@ -15,11 +15,13 @@
   font-family: "Decima Mono";
   padding: 14px 40px;
   background: var(--red);
+  transition-property: background;
+  transition-duration: 1s;
 }
 .QueroAcessarAgora a:hover {
   background: var(--blue);
   color: var(--light-blue);
-  transition: 0.9s;
+  transition: 1s;
 }
 @media (max-width: 560px) {
   .QueroAcessarAgora > .container {

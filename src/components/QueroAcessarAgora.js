@@ -5,7 +5,7 @@ function QueroAcessarAgora() {
   return (
     <section className="QueroAcessarAgora" id="QueroAcessarAgora">
       <div className="container">
-        <a href="">
+        <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
           Quero acessar agora
         </a>
       </div>

@@ -41,11 +41,13 @@
   padding: 14px 40px;
   background: #000;
   margin: 20px 0;
+  transition-property: background;
+  transition-duration: 1s;
 }
 .acessar-wrapper-btn a:hover {
   background: var(--light-blue);
   color: var(--blue);
-  transition: 0.9s;
+  transition: 1s;
 }
 @media (max-width: 768px) {
   .acessar-wrapper {

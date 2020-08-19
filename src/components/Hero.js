@@ -47,7 +47,7 @@ function Hero() {
             das Empresas Focadas em Clientes
           </p>
           <div className="btn-cta">
-            <a href="">
+            <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
               Quero acessar agora
             </a>
           </div>

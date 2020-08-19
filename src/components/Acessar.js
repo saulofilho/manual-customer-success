@@ -15,7 +15,7 @@ function Acessar() {
             </p>
           </div>
           <div className="acessar-wrapper-btn">
-            <a href="">
+            <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
               Quero acessar agora
             </a>
             <img 
