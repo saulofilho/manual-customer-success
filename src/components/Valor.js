@@ -33,7 +33,7 @@ function Valor() {
               <img className="vertical-line" src={VerticalLine} alt=""/>
               <div className="valor-blue-box-down">
                 <p className="down-title">
-                Bônus: ganhe o livro Customer Success, 
+                <strong>Bônus:</strong> ganhe o livro Customer Success, 
                 <br/>
                 o Sucesso das Empresas Focadas em Clientes.
                 </p>
@@ -50,7 +50,10 @@ function Valor() {
               do investimento?
             </h2>
             <p className="investimento-title">
-            O valor real deste conteúdo vai bem além do sugerido. Ele contém mais de 300h de estudo e produção, e mais de 200 referências bibliográficas compiladas, em aulas direcionadas para o seu conhecimento e evolução profissional.
+            O valor real deste conteúdo vai bem além do sugerido. 
+            Ele contém mais de 300h de estudo e produção, e mais de 200 referências 
+            bibliográficas compiladas, em aulas direcionadas para o seu conhecimento 
+            e evolução profissional.
             </p>
             <a className="investimento-btn" href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
               Quero comprar agora

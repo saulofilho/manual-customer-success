@@ -24,7 +24,34 @@ function Futuro() {
         <div className="futuro-row">
           <div className="futuro-row-text">
             <p>
-            Empresas que ainda não entenderam que seu cliente é o foco do crescimento podem estar com os seus dias contados. Os profissionais que usarem a metodologia de Sucesso do Cliente não só serão destaque nas empresas como também estarão capacitados para as novas vagas de emprego, com salários melhores e perto das grandes companhias líderes de mercado que já aplicam essa metodologia e possuem a mentalidade certa para crescer junto com seus clientes. Seja parte do grupo seleto de profissionais qualificados que vão se destacar entregando sucesso ao cliente com uma metodologia aplicada e comprovada em milhares de empresas no Brasil e no mundo.
+              <strong>Customer Success</strong> é o profissional que leva o 
+              <br/>
+              atendimento ao cliente 
+              a um novo nível. Ele não 
+              <br/>
+              apenas cumpre demandas, ele leva sucesso 
+              ao 
+              <br/>
+              cliente através de uma metodologia inovadora.
+              <br/>
+              <br/>
+              Os profissionais que usarem a metodologia de 
+              <br/>
+              Sucesso do Cliente 
+              não só serão destaque nas 
+              <br/>
+              empresas como também estarão capacitados 
+              para 
+              <br/>
+              as <strong>novas vagas de emprego</strong>, com salários 
+              <br/>
+              melhores e perto das 
+              grandes companhias líderes 
+              <br/>
+              de mercado que já aplicam essa metodologia 
+              e 
+              <br/>
+              possuem a mentalidade certa para crescer junto com seus clientes. 
             </p>
             <img 
               className="red-line" 

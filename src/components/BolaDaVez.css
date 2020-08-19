@@ -78,6 +78,8 @@
   .blue-box p {
     width: 100%;
     padding: 30px 20px;
+    background: var(--light-blue);
+    color: #000;
   }
   .boladavez-wrapper {
     padding: 50px 0;

@@ -37,14 +37,23 @@ function Hero() {
             <br/>
             Customer Success
             <br/>
-            por Hiram Damin
           </h1>
-          <p>
-            O curso online inspirado no livro
+          <p className="hero-subtitle">por Hiram Damin</p>
+          <p className="display-none-500">
+            O curso online inspirado no livro 
             <br/>
-            Customer Success, o Sucesso 
+            "Customer Success: o sucesso das empresas 
             <br/>
-            das Empresas Focadas em Clientes
+            focadas em cliente" com Hiram Damin.
+          </p>
+          <p className="display-none display-block-500">
+            O curso online inspirado no livro 
+            <br/>
+            "Customer Success: o sucesso das 
+            <br/>
+            empresas focadas em cliente" 
+            <br/>
+            com Hiram Damin.
           </p>
           <div className="btn-cta">
             <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">

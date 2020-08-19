@@ -33,10 +33,11 @@
   line-height: 50px;
   color: #fff;
   font-family: "Decima Mono Bold";
-  padding: 20px 0 20px;
+  padding: 20px 0 5px;
 }
-.hero-text h1 span {
-  font-family: "Decima Mono Italic";
+.hero-text .hero-subtitle {
+  font-family: "Decima Mono";
+  font-size: 24px;
 }
 .hero-text p {
   font-size: 20px;

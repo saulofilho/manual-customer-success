@@ -29,17 +29,20 @@ function Certificado() {
               alt="linha branca"
             />
             <h2>
-              Certificação de uma das maiores escolas de negócios do Brasil e ligadas a Microsoft School: o Centro Europeu
+            Certificação de uma das maiores escolas de negócios do Brasil. 
+            <br/>
+            Centro Europeu 
+            <br/>
+            Microsoft School
             </h2>
-            {/* <p className="certi-title">
-              Centro Europeu é uma das referências nacionais 
-              <br/>
-              em educação e negócios. 
-            </p> */}
             <p className="certi-subtitle">
-              + de 50 cursos online e presenciais 
+              Escola pioneira no segmento de negócios
               <br/>
-              + de 25.000 alunos ao longo de sua trajetória 
+              + de 30 anos de mercado 
+              <br/>
+              + de 50 cursos online e presenciais.
+              <br/>
+              + de 25.000 alunos no Núcleo de Cursos Livres.
             </p>
             <img 
               className="red-line" 

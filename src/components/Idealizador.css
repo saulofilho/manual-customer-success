@@ -129,7 +129,10 @@
     column-gap: 0;
     width: 320px;
   }
+  .idealizador-item {
+    padding: 0 0 100px;
+  }
   .idealizador-item-reverse {
-    padding: 100px 0 70px;
+    padding: 0 0 70px;
   }
 }

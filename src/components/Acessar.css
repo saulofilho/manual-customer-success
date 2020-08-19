@@ -67,4 +67,7 @@
   .Acessar > .container {
     padding: 0 20px 50px;
   }
+  .acessar-wrapper-text p {
+    text-align: center;
+  }
 }
