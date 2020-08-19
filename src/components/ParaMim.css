@@ -131,4 +131,7 @@
   .para-texts-title {
     padding: 0 0 30px 0 !important;
   }
+  .ParaMim .container {
+    padding: 0 0;
+  }
 }

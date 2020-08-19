@@ -35,22 +35,38 @@ function Carousel() {
     <section className="Carousel">
       <div className="car-texts-wrapper container">
         <div className="texts">
-          <h2>
+          <h2 className="display-none-500">
             Da entrada da conta até
             <br />
             o ciclo final!
+          </h2>
+          <h2 className="display-none display-block-500">
+            Da entrada da conta 
+            <br />
+            até o ciclo final!
           </h2>
           <p className="texts-title">
             Você irá aprender todas as principais técnicas para
             <br />
             atuar como um Customer Success
           </p>
-          <p className="texts-subtitle">
+          <p className="texts-subtitle display-none-500">
             Nossa missão é contribuir de forma decisiva nas suas conquistas: 
             <br />
             uma nova vaga, uma promoção ou a aceleração dos seus negócios e o 
             <br />
             reconhecimento pelos seus resultados com foco no sucesso dos clientes.
+          </p>
+          <p className="texts-subtitle display-none display-block-500">
+            Nossa missão é contribuir de forma decisiva nas suas 
+            <br />
+            conquistas: uma nova vaga, uma promoção ou a 
+            <br />
+            aceleração dos seus negócios e o reconhecimento 
+            <br />
+            pelos seus resultados com foco no sucesso dos 
+            <br />
+            clientes.
           </p>
         </div>
         <div className="lines">

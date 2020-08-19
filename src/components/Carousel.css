@@ -154,10 +154,10 @@
     padding-right: 0;
   }
   .slick-prev {
-    left: -10px !important;
+    left: 5px !important;
   }
   .slick-next {
-    right: -10px !important;
+    right: 5px !important;
   }
 }
 @media (max-width: 576px) {
@@ -166,9 +166,6 @@
   }
   .lines img:first-child {
     margin: 0 200px 50px 0;
-  }
-  .container-box {
-    height: auto;
   }
   .slick-current .slider-subtitle {
     padding: 10px 0 10px 0;
@@ -183,9 +180,13 @@
     padding: 10px 0 20px 0;
   }
   .container-carousel {
-    padding: 20px 20px 0;
+    padding: 20px 0 0;
   }
   .car-texts-wrapper.container {
     padding: 0 20px 20px;
+  }
+  .container-box {
+    padding: 60px 50px 0;
+    height: 300px;
   }
 }

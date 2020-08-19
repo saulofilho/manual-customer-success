@@ -71,7 +71,7 @@
 }
 @media (max-width: 768px) {
   .futuro-wrapper h2 {
-    padding: 650px 0 50px;
+    padding: 750px 0 50px;
   }
   .futuro-row-text p { 
     padding: 0 40px 50px 0;
@@ -104,5 +104,8 @@
   }
   .futuro-wrapper h2 {
     padding: 550px 0 50px;
+  }
+  .Futuro .red-line {
+    padding: 0 0;
   }
 }

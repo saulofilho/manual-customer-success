@@ -56,6 +56,9 @@ button {
   max-width: 1140px;
   padding: 20px 70px;
 }
+.display-none {
+  display: none;
+}
 .red-line,
 .blue-line,
 .white-line {
@@ -85,5 +88,8 @@ button {
   }
   .display-none-500 {
     display: none !important;
+  }
+  .display-block-500 {
+    display: block !important;
   }
 }

@@ -152,4 +152,10 @@
   .Valor .red-line {
     display: none;
   }
+  .investimento-wrapper {
+    text-align: center;
+  }
+  .investimento-btn {
+    padding: 18px 46px;
+  }
 }

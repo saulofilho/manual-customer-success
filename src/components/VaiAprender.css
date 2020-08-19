@@ -13,6 +13,11 @@
   margin: 0 auto;
   top: -10px;
 }
+.VaiAprender .red-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .vaiaprender-wrapper {
   background: #fff;
   display: flex;
@@ -64,14 +69,14 @@
 @media (max-width: 768px) {
   .vaiaprender-wrapper {
     flex-flow: column;
-    padding: 20px;
+    padding: 50px;
   }
   .vai-texts-wrapper {
     padding: 20px 0 0;
     position: unset;
   }
   .VaiAprender .container {
-    padding: 20px 0;
+    padding: 0 0;
   }
   .vai-number {
     padding: 0 10px 0 0;

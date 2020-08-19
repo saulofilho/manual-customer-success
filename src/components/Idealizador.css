@@ -124,4 +124,12 @@
     width: auto;
     height: 40px;
   }
+  .lugares-row {
+    row-gap: 20px;
+    column-gap: 0;
+    width: 320px;
+  }
+  .idealizador-item-reverse {
+    padding: 100px 0 70px;
+  }
 }

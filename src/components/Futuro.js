@@ -7,12 +7,19 @@ function Futuro() {
   return (
     <section className="Futuro">
       <div className="container futuro-wrapper">
-        <h2>
+        <h2 className="display-none-500">
           Customer Success não
           <br/>
-          é a profissão do futuro 
+          é a profissão do futuro,
           <br/>
           é a oportunidade agora!
+        </h2>
+        <h2 className="display-none display-block-500">
+          Customer Success não
+          <br/>
+          é a profissão do 
+          <br/>
+          futuro, é a oportunidade agora!
         </h2>
         <div className="futuro-row">
           <div className="futuro-row-text">

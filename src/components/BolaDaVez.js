@@ -14,7 +14,7 @@ function BolaDaVez() {
               src={RedLine} 
               alt="linha vermelha animada"
             />
-            <h2>
+            <h2 className="display-none-500">
             Porque 
             <br/>
             Customer 
@@ -23,6 +23,14 @@ function BolaDaVez() {
             <br/>
             é a bola 
             <br/>
+            da vez?
+            </h2>
+            <h2 className="display-none display-block-500">
+            Porque Customer 
+            <br/>
+            Success é a 
+            <br/>
+            bola 
             da vez?
             </h2>
           </div>
@@ -34,8 +42,7 @@ function BolaDaVez() {
               estarem focadas em um objetivo: <strong>o sucesso dos seus clientes.</strong>
               <br/>
               <br/>
-              Diariamente surgem novas vagas no mercado na área de <strong>Customer Success</strong> 
-              e uma das maiores dificuldades dos recrutadores é a mão de obra qualificada. 
+              Diariamente surgem novas vagas no mercado na área de <strong>Customer Success</strong> e uma das maiores dificuldades dos recrutadores é a mão de obra qualificada. 
               Gente que entende da metodologia e sabe como aplicá-la no dia a dia. 
               É uma profissão que hoje vale ouro no mercado!
             </p>

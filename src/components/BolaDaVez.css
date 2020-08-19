@@ -75,5 +75,14 @@
   }
 }
 @media (max-width: 576px) {
-
+  .blue-box p {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .boladavez-wrapper {
+    padding: 50px 0;
+  }
+  .boladavez-title-wrapper {
+    padding: 0 20px;
+  }
 }
