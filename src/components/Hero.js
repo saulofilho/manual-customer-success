@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import ImgHeader from '../assets/images/img-header.png';
-import LogosPatrocinadores from '../assets/images/logos-hero.png';
+// import LogosPatrocinadores from '../assets/images/logos-hero.png';
 import Relogio from '../assets/vetores/relogio.png';
 import Chapeu from '../assets/vetores/chapeu.png';
 import Calendario from '../assets/vetores/calendario.png';
@@ -31,12 +31,13 @@ function Hero() {
         }}  
       >
         <div className="container hero-text">
-          <img src={LogosPatrocinadores} alt="logos dos patrocinadores"/>
+          {/* <img src={LogosPatrocinadores} alt="logos dos patrocinadores"/> */}
           <h1>
             Manual do 
             <br/>
             Customer Success
             <br/>
+            com Hiram Damin.
           </h1>
           <p className="hero-subtitle">por Hiram Damin</p>
           <p className="display-none-500">
@@ -44,16 +45,16 @@ function Hero() {
             <br/>
             "Customer Success: o sucesso das empresas 
             <br/>
-            focadas em cliente" com Hiram Damin.
+            focadas em clientes" por Hiram Damin.
           </p>
           <p className="display-none display-block-500">
             O curso online inspirado no livro 
             <br/>
             "Customer Success: o sucesso das 
             <br/>
-            empresas focadas em cliente" 
+            empresas focadas em clientes" 
             <br/>
-            com Hiram Damin.
+            por Hiram Damin.
           </p>
           <div className="btn-cta">
             <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">

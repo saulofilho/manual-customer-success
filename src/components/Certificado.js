@@ -29,7 +29,7 @@ function Certificado() {
               alt="linha branca"
             />
             <h2>
-            Certificação de uma das maiores escolas de negócios do Brasil. 
+            Certificação de uma das maiores escolas de negócios e economia criativa do Brasil
             <br/>
             Centro Europeu 
             <br/>
@@ -40,9 +40,9 @@ function Certificado() {
               <br/>
               + de 30 anos de mercado 
               <br/>
-              + de 50 cursos online e presenciais.
+              + de 50 cursos online e presenciais
               <br/>
-              + de 25.000 alunos no Núcleo de Cursos Livres.
+              + de 25.000 alunos no Núcleo de Cursos Livres
             </p>
             <img 
               className="red-line" 

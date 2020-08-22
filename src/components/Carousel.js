@@ -88,10 +88,10 @@ function Carousel() {
             <div className="container-box svg-bau">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 44"><defs></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path className="cls-1" d="M1,17V39a4,4,0,0,0,4,4H55a4,4,0,0,0,4-4V13A12,12,0,0,0,47,1H13A12,12,0,0,0,1,13H25a1.88,1.88,0,0,1,2-2h6a1.87,1.87,0,0,1,2,2H55"/><path className="cls-1" d="M35,17v5a5,5,0,0,1-10,0V17H5V39H55V17H29"/><line className="cls-1" x1="30" y1="21" x2="30" y2="22"/><line className="cls-1" x1="9" y1="27" x2="5" y2="27"/><line className="cls-1" x1="23" y1="33" x2="11" y2="33"/><line className="cls-1" x1="39" y1="31" x2="35" y2="31"/><line className="cls-1" x1="55" y1="27" x2="47" y2="27"/><line className="cls-1" x1="21" y1="5" x2="17" y2="5"/><line className="cls-1" x1="9" y1="9" x2="1.68" y2="9"/><line className="cls-1" x1="57.31" y1="7" x2="45" y2="7"/></g></g></svg>
               <p className="slider-title">
-                A mentalidade de Customer Success
+                A mentalidade de Customer Success.
               </p>
               <p className="slider-subtitle">
-              Veja como Customer Success não é uma profissão, mas sim uma mentalidade que irá mudar empresas e mercados
+              Veja como Customer Success não é uma profissão, mas sim uma mentalidade que irá mudar empresas e mercados.
               </p>
             </div>
           </div>

@@ -24,10 +24,10 @@ function Valor() {
                 <p className="up-preco">
                   À vista: de <span className="valor-riscado">R$ 1.199,00</span>
                   <br/>
-                  por R$ 799,00
+                  por R$ 599,00
                 </p>
                 <p className="up-preco em-ate">
-                  em até <span className="valor-destaque">6x R$ 133,16</span>
+                  em até <span className="valor-destaque">6x R$ 99,83</span> sem juros
                 </p>
               </div>
               <img className="vertical-line" src={VerticalLine} alt=""/>
