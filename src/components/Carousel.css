@@ -156,7 +156,7 @@
     padding: 20px 0;
   }
   .slick-slide {
-    padding-right: 0;
+    padding: 0;
   }
   .slick-prev {
     left: 5px !important;

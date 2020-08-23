@@ -81,11 +81,51 @@ button {
     display: none !important;
   }
 }
+@media (min-width: 700px) {
+  .display-none-700-min {
+    display: none !important;
+  }
+  .display-block-700-min {
+    display: block !important;
+  }
+}
+@media (max-width: 700px) {
+  .display-none-700 {
+    display: none !important;
+  }
+  .display-block-700 {
+    display: block !important;
+  }
+}
+@media (min-width: 576px) {
+  .display-none-576-min {
+    display: none !important;
+  }
+  .display-block-576-min {
+    display: block !important;
+  }
+}
 @media (max-width: 576px) {
   .container {
     max-width: 540px;
     padding: 20px 20px;
   }
+  .display-none-576 {
+    display: none !important;
+  }
+  .display-block-576 {
+    display: block !important;
+  }
+}
+@media (min-width: 500px) {
+  .display-none-500-min {
+    display: none !important;
+  }
+  .display-block-500-min {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
   .display-none-500 {
     display: none !important;
   }

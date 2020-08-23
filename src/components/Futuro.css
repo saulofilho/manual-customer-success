@@ -74,7 +74,7 @@
     padding: 750px 0 50px;
   }
   .futuro-row-text p { 
-    padding: 0 40px 50px 0;
+    padding: 0 0 50px 0;
   }
   .futuro-row { 
     flex-flow: column;
@@ -96,16 +96,18 @@
   }
 }
 @media (max-width: 576px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
-  }
   .futuro-row-text { 
     padding: 0 0 0 0;
   }
   .futuro-wrapper h2 {
-    padding: 420px 0 50px;
+    padding: 400px 0 50px;
   }
   .Futuro .red-line {
     padding: 0 0;
+  }
+}
+@media (max-width: 500px) {
+  .futuro-wrapper h2 {
+    padding: 520px 0 50px;
   }
 }

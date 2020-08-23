@@ -29,11 +29,11 @@ function Certificado() {
               alt="linha branca"
             />
             <h2>
-            Certificação de uma das maiores escolas de negócios e economia criativa do Brasil
+            Certificação de uma das maiores escolas de negócios e economia criativa do Brasil:
             <br/>
             Centro Europeu 
             <br/>
-            Microsoft School
+            Microsoft School.
             </h2>
             <p className="certi-subtitle">
               Escola pioneira no segmento de negócios

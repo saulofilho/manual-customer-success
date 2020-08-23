@@ -41,7 +41,7 @@
   text-align: center;
 }
 .up-preco.em-ate {
-  font-family: "Decima Nova";
+  font-family: "Decima Nova Regular";
 }
 .up-preco .valor-riscado {
   text-decoration: line-through;
@@ -59,7 +59,7 @@
 .down-title {
   font-size: 14px;
   color: #fff;
-  font-family: "Decima Nova";
+  font-family: "Decima Nova Regular";
   text-align: center;
   padding: 30px 0 0;
 }

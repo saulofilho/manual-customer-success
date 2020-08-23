@@ -39,15 +39,28 @@ function Hero() {
             <br/>
             com Hiram Damin.
           </h1>
-          <p className="hero-subtitle">por Hiram Damin</p>
-          <p className="display-none-500">
+          {/* <p className="hero-subtitle">por Hiram Damin</p> */}
+          <p className="display-none-500-min">
+            O curso online 
+            <br/>
+            inspirado no livro 
+            <br/>
+            "Customer Success: 
+            <br/>
+            o sucesso das empresas 
+            <br/>
+            focadas em clientes" 
+            <br/>
+            por Hiram Damin.
+          </p>
+          <p className="display-none display-block-500-min display-none-576-min">
             O curso online inspirado no livro 
             <br/>
             "Customer Success: o sucesso das empresas 
             <br/>
             focadas em clientes" por Hiram Damin.
           </p>
-          <p className="display-none display-block-500">
+          <p className="display-none display-block-576-min">
             O curso online inspirado no livro 
             <br/>
             "Customer Success: o sucesso das 
@@ -68,6 +81,8 @@ function Hero() {
             <p>
               5h30 de 
               conteúdo
+              100%
+              <br/>
               on-line
             </p>
           </div>
@@ -109,7 +124,7 @@ function Hero() {
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
-                De <span>R$ 1.199,00</span> por apenas 799,00  em até 6x
+                De <span>R$ 1.199,00</span> por apenas 599,00  em até 6x R$ 99,83
                 </p>
             </div>
           </button>

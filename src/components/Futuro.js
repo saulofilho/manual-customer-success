@@ -7,14 +7,24 @@ function Futuro() {
   return (
     <section className="Futuro">
       <div className="container futuro-wrapper">
-        <h2 className="display-none-500">
+        <h2 className="display-none-500-min">
+          Customer Success 
+          <br/>
+          não é a 
+          profissão 
+          <br/>
+          do futuro, é a 
+          <br/>
+          oportunidade agora!
+        </h2>
+        <h2 className="display-none display-block-500-min display-none-576-min">
           Customer Success não
           <br/>
           é a profissão do futuro,
           <br/>
           é a oportunidade agora!
         </h2>
-        <h2 className="display-none display-block-500">
+        <h2 className="display-none display-block-576-min">
           Customer Success não
           <br/>
           é a profissão do 
@@ -23,7 +33,28 @@ function Futuro() {
         </h2>
         <div className="futuro-row">
           <div className="futuro-row-text">
-            <p>
+            <p className="display-none-700-min">
+              <strong>Customer Success</strong> é o profissional que leva o 
+              atendimento ao cliente 
+              a um novo nível. Ele não 
+              apenas cumpre demandas, ele leva sucesso 
+              ao 
+              cliente através de uma metodologia inovadora.
+              <br/>
+              <br/>
+              Os profissionais que usarem a metodologia de 
+              Sucesso do Cliente 
+              não só serão destaque nas 
+              empresas como também estarão capacitados 
+              para 
+              as <strong>novas vagas de emprego</strong>, com salários 
+              melhores e perto das 
+              grandes companhias líderes 
+              de mercado que já aplicam essa metodologia 
+              e 
+              possuem a mentalidade certa para crescer junto com seus clientes. 
+            </p>
+            <p className="display-none display-block-700-min">
               <strong>Customer Success</strong> é o profissional que leva o 
               <br/>
               atendimento ao cliente 

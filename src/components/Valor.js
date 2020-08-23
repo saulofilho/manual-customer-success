@@ -19,7 +19,7 @@ function Valor() {
                 <p className="up-title">
                 Curso inspirado no livro Customer Success, 
                 <br/>
-                o Sucesso das Empresas Focadas em Clientes
+                o Sucesso das Empresas Focadas em Clientes.
                 </p>
                 <p className="up-preco">
                   À vista: de <span className="valor-riscado">R$ 1.199,00</span>

@@ -7,14 +7,33 @@ function QuemConfia() {
   return (
     <section className="QuemConfia">
       <div className="container">
-        <h2 className="display-none-500">
-          Veja quem já deu um upgrade 
+        <h2 className="display-none-500-min">
+          Veja quem já 
           <br/>
-          na sua carreira com o curso 
+          deu um upgrade 
+          <br/>
+          na sua carreira 
+          <br/>
+          com o curso 
+          <br/>
+          de CS de 
+          <br/>
+          Hiram Damin
+        </h2>
+        <h2 className="display-none display-block-500-min display-none-576-min">
+          Veja quem já deu 
+          <br/>
+          um 
+          
+          upgrade 
+          
+          na sua 
+          <br/>
+          carreira com o curso 
           <br/>
           de CS de Hiram Damin
         </h2>
-        <h2 className="display-none display-block-500">
+        <h2 className="display-none display-block-576-min">
           Veja quem já deu um 
           <br/>
           upgrade na sua 
