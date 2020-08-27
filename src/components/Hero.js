@@ -124,7 +124,7 @@ function Hero() {
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
-                De <span>R$ 1.199,00</span> por apenas 599,00  em até 6x R$ 99,83
+                De <span>R$ 1.199,00</span> por apenas R$ 599,00  em até 6x R$ 99,83
                 </p>
             </div>
           </button>
